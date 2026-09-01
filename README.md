@@ -61,3 +61,19 @@ pip install -r requirements.txt
     - Violeta Curto
     - Mateo Luquetti
     - Tomas Aybar
+
+## Estructura del repositorio
+
+| Carpeta | Contenido |
+|---|---|
+| `modelos/` | Clases del dominio (`Serie`, `Usuario`) |
+| `estructuras/` | Estr. de datos implementadas (BST, AVL, Heap, Grafo) |
+| `algoritmos/` | Búsquedas, BFS/DFS, caminos mínimos |
+| `datos/` | Datasets de prueba (JSON) |
+| `servicios/` | Lógica de negocio (recomendador) |
+| `ui/` | Interfaz de terminal |
+| `tests/` | Pruebas |
+| `docs/` | Documentación del proyecto |
+
+## Estado del proyecto
+⏳ TP0
