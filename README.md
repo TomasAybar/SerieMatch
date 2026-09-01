@@ -1,6 +1,24 @@
+# SerieMatch
+
+> El fin del scroll infinito. Encontrá tu próxima serie favorita sin perder el tiempo.
+
+## Sobre el proyecto
+
+SerieMatch es una aplicación de consola diseñada para los fanáticos que pasan más tiempo buscando qué ver que disfrutando de una buena historia. Eliminamos la eterna pregunta de *"¿Qué miramos hoy?"* mediante un sistema de recomendaciones rápidas para que encuentres tu *match* ideal al instante.
+
+## Funcionalidades Principales
+
+*   **Mini test inteligente:** Un cuestionario rápido al ingresar para adaptar el algoritmo a tu estado de ánimo actual.
+*   **¿Dónde verla?:** Integración de disponibilidad para indicarte exactamente en qué plataforma de streaming se encuentra la serie.
+*   **Lista de Favoritos:** Guardá tus *matches* para no olvidarte qué mirar el fin de semana.
+*   **Tráiler Oficial:** Acceso directo a los avances para ayudarte a tomar la decisión final.
+*   **Ranking:** Top de las series mejor valoradas por la crítica.
+
+
+
 ## Instalación
 
-### Windows
+#### Windows
 
 ```bash
 # 1. Clonar el repositorio
@@ -18,8 +36,7 @@ python -m venv venv
 # 5. Instalar las dependencias
 pip install -r requirements.txt
 ```
-
-### Linux / macOS
+#### Linux / macOS
 
 ```bash
 # 1. Clonar el repositorio
@@ -37,3 +54,10 @@ source venv/bin/activate
 # 5. Instalar las dependencias
 pip install -r requirements.txt
 ```
+
+
+## Integrantes
+
+    - Violeta Curto
+    - Mateo Luquetti
+    - Tomas Aybar
