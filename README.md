@@ -75,5 +75,12 @@ pip install -r requirements.txt
 | `tests/` | Pruebas |
 | `docs/` | Documentación del proyecto |
 
+## Documentación
+- [Requerimientos](docs/01-requerimientos.md)
+- [Casos de uso](docs/02-casos-de-uso.md)
+- [Diagrama de clases](docs/03-diagrama-clases.md)
+- [Conexión entre estructuras](docs/04-diagrama-datos.md)
+- [Gestión del proyecto](docs/05-gestion-proyecto.md)
+
 ## Estado del proyecto
 ⏳ TP0
