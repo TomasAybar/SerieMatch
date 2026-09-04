@@ -1,0 +1,188 @@
+[
+    {
+        "titulo": "Game of Thrones",
+        "generos": [
+            "Fantasía",
+            "Drama",
+            "Acción"
+        ],
+        "duracion_min": 57,
+        "puntuacion": 9.2,
+        "plataforma": "HBO Max",
+        "sinopsis": "Nueve familias nobles luchan por el control de las tierras de Westeros, mientras un antiguo enemigo regresa tras estar extinto por miles de años."
+    },
+    {
+        "titulo": "Breaking Bad",
+        "generos": [
+            "Drama",
+            "Crimen",
+            "Thriller"
+        ],
+        "duracion_min": 49,
+        "puntuacion": 9.5,
+        "plataforma": "Netflix",
+        "sinopsis": "Un profesor de química de secundaria diagnosticado con cáncer inoperable recurre a la fabricación y venta de metanfetamina para asegurar el futuro financiero de su familia."
+    },
+    {
+        "titulo": "Stranger Things",
+        "generos": [
+            "Ciencia ficción",
+            "Terror",
+            "Drama"
+        ],
+        "duracion_min": 51,
+        "puntuacion": 8.7,
+        "plataforma": "Netflix",
+        "sinopsis": "Cuando un niño desaparece, un pequeño pueblo descubre un misterio que involucra experimentos secretos, fuerzas sobrenaturales aterradoras y una extraña niña."
+    },
+    {
+        "titulo": "The Office",
+        "generos": [
+            "Comedia"
+        ],
+        "duracion_min": 22,
+        "puntuacion": 9.0,
+        "plataforma": "Peacock",
+        "sinopsis": "Un documental ficticio sobre el personal de oficina de la empresa papelera Dunder Mifflin en Scranton, Pensilvania, liderado por el excéntrico Michael Scott."
+    },
+    {
+        "titulo": "Chernobyl",
+        "generos": [
+            "Drama",
+            "Histórico",
+            "Misterio"
+        ],
+        "duracion_min": 60,
+        "puntuacion": 9.3,
+        "plataforma": "HBO Max",
+        "sinopsis": "Dramatización de la historia real del desastre nuclear ocurrido en Ucrania en 1986 y de los sacrificios realizados para salvar a Europa de un desastre inimaginable."
+    },
+    {
+        "titulo": "Squid Game",
+        "generos": [
+            "Thriller",
+            "Drama",
+            "Misterio"
+        ],
+        "duracion_min": 55,
+        "puntuacion": 8.0,
+        "plataforma": "Netflix",
+        "sinopsis": "Cientos de jugadores con problemas económicos aceptan una extraña invitación para competir en juegos infantiles; el premio es tentador, pero las consecuencias son mortales."
+    },
+    {
+        "titulo": "The Mandalorian",
+        "generos": [
+            "Ciencia ficción",
+            "Acción",
+            "Aventura"
+        ],
+        "duracion_min": 40,
+        "puntuacion": 8.6,
+        "plataforma": "Disney+",
+        "sinopsis": "Las aventuras de un cazarrecompensas mandaloriano en los confines lejanos de la galaxia, lejos de la autoridad de la Nueva República."
+    },
+    {
+        "titulo": "The Crown",
+        "generos": [
+            "Drama",
+            "Biográfico",
+            "Histórico"
+        ],
+        "duracion_min": 58,
+        "puntuacion": 8.6,
+        "plataforma": "Netflix",
+        "sinopsis": "Sigue las rivalidades políticas y el romance durante el reinado de la reina Isabel II, así como los acontecimientos que moldearon la segunda mitad del siglo XX."
+    },
+    {
+        "titulo": "Peaky Blinders",
+        "generos": [
+            "Crimen",
+            "Drama"
+        ],
+        "duracion_min": 60,
+        "puntuacion": 8.8,
+        "plataforma": "Netflix",
+        "sinopsis": "Una epopeya de una familia gánster en Birmingham, Inglaterra, en 1919, centrada en una banda que cose cuchillas de afeitar en las viseras de sus gorras y en su feroz jefe, Tommy Shelby."
+    },
+    {
+        "titulo": "Black Mirror",
+        "generos": [
+            "Ciencia ficción",
+            "Drama",
+            "Antología"
+        ],
+        "duracion_min": 60,
+        "puntuacion": 8.7,
+        "plataforma": "Netflix",
+        "sinopsis": "Una serie de antología ambientada en un futuro cercano que explora cómo las innovaciones tecnológicas chocan con los oscuros e impredecibles instintos humanos."
+    },
+    {
+        "titulo": "Dark",
+        "generos": [
+            "Ciencia ficción",
+            "Misterio",
+            "Drama"
+        ],
+        "duracion_min": 60,
+        "puntuacion": 8.7,
+        "plataforma": "Netflix",
+        "sinopsis": "La desaparición de dos niños en un pueblo alemán saca a la luz las dobles vidas y las relaciones rotas entre cuatro familias, revelando un misterio que abarca tres generaciones."
+    },
+    {
+        "titulo": "Better Call Saul",
+        "generos": [
+            "Drama",
+            "Crimen"
+        ],
+        "duracion_min": 46,
+        "puntuacion": 9.0,
+        "plataforma": "Netflix",
+        "sinopsis": "Las pruebas y tribulaciones del abogado defensor Jimmy McGill antes de su fatídico encuentro con Walter White y convertirse en el extravagante Saul Goodman."
+    },
+    {
+        "titulo": "Succession",
+        "generos": [
+            "Drama"
+        ],
+        "duracion_min": 60,
+        "puntuacion": 8.9,
+        "plataforma": "HBO Max",
+        "sinopsis": "La familia Roy es conocida por controlar la empresa de medios y entretenimiento Royco. Sin embargo, su mundo cambia cuando su anciano padre decide dar un paso al costado."
+    },
+    {
+        "titulo": "The Last of Us",
+        "generos": [
+            "Drama",
+            "Postapocalíptico",
+            "Acción"
+        ],
+        "duracion_min": 50,
+        "puntuacion": 8.8,
+        "plataforma": "HBO Max",
+        "sinopsis": "Tras la destrucción de la civilización moderna, un superviviente firme se hace cargo de una niña de 14 años que puede ser la última esperanza de la humanidad."
+    },
+    {
+        "titulo": "House of the Dragon",
+        "generos": [
+            "Fantasía",
+            "Acción",
+            "Drama"
+        ],
+        "duracion_min": 60,
+        "puntuacion": 8.4,
+        "plataforma": "HBO Max",
+        "sinopsis": "Ambientada 200 años antes de los eventos de Game of Thrones, cuenta la historia del principio del fin de la Casa Targaryen y los eventos que condujeron a la guerra civil."
+    },
+    {
+        "titulo": "The Boys",
+        "generos": [
+            "Acción",
+            "Comedia negra",
+            "Ciencia ficción"
+        ],
+        "duracion_min": 60,
+        "puntuacion": 8.7,
+        "plataforma": "Prime Video",
+        "sinopsis": "Un grupo de vigilantes se propone acabar con los superhéroes corruptos que abusan de sus superpoderes y de la corporación millonaria que los gestiona."
+    }
+]
