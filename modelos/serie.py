@@ -1,6 +1,17 @@
 class Serie:
     """Representa un elemento del catalogo"""
-    def __init__(self, titulo: str, generos: list, duracion_min: int, puntuacion: float, plataforma: str, sinopsis: str):
+
+    def __init__(
+        self,
+        id: int,
+        titulo: str,
+        generos: list,
+        duracion_min: int,
+        puntuacion: float,
+        plataforma: str,
+        sinopsis: str,
+    ):
+        self.id = id
         self._titulo = titulo
         self._generos = generos
         self._duracion_min = duracion_min
@@ -33,4 +44,4 @@ class Serie:
         return self._sinopsis
 
     def __repr__(self) -> str:
-        return f'Serie: {self.titulo} Plataforma: {self.plataforma} ⭐Puntuacion: {self.puntuacion}'
+        return f"Serie: {self.titulo} Plataforma: {self.plataforma} ⭐Puntuacion: {self.puntuacion}"
