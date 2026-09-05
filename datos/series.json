@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "titulo": "Game of Thrones",
         "generos": [
             "Fantasía",
@@ -12,6 +13,7 @@
         "sinopsis": "Nueve familias nobles luchan por el control de las tierras de Westeros, mientras un antiguo enemigo regresa tras estar extinto por miles de años."
     },
     {
+        "id": 2,
         "titulo": "Breaking Bad",
         "generos": [
             "Drama",
@@ -24,6 +26,7 @@
         "sinopsis": "Un profesor de química de secundaria diagnosticado con cáncer inoperable recurre a la fabricación y venta de metanfetamina para asegurar el futuro financiero de su familia."
     },
     {
+        "id": 3,
         "titulo": "Stranger Things",
         "generos": [
             "Ciencia ficción",
@@ -36,6 +39,7 @@
         "sinopsis": "Cuando un niño desaparece, un pequeño pueblo descubre un misterio que involucra experimentos secretos, fuerzas sobrenaturales aterradoras y una extraña niña."
     },
     {
+        "id": 4,
         "titulo": "The Office",
         "generos": [
             "Comedia"
@@ -46,6 +50,7 @@
         "sinopsis": "Un documental ficticio sobre el personal de oficina de la empresa papelera Dunder Mifflin en Scranton, Pensilvania, liderado por el excéntrico Michael Scott."
     },
     {
+        "id": 5,
         "titulo": "Chernobyl",
         "generos": [
             "Drama",
@@ -58,6 +63,7 @@
         "sinopsis": "Dramatización de la historia real del desastre nuclear ocurrido en Ucrania en 1986 y de los sacrificios realizados para salvar a Europa de un desastre inimaginable."
     },
     {
+        "id": 6,
         "titulo": "Squid Game",
         "generos": [
             "Thriller",
@@ -70,6 +76,7 @@
         "sinopsis": "Cientos de jugadores con problemas económicos aceptan una extraña invitación para competir en juegos infantiles; el premio es tentador, pero las consecuencias son mortales."
     },
     {
+        "id": 7,
         "titulo": "The Mandalorian",
         "generos": [
             "Ciencia ficción",
@@ -82,6 +89,7 @@
         "sinopsis": "Las aventuras de un cazarrecompensas mandaloriano en los confines lejanos de la galaxia, lejos de la autoridad de la Nueva República."
     },
     {
+        "id": 8,
         "titulo": "The Crown",
         "generos": [
             "Drama",
@@ -94,6 +102,7 @@
         "sinopsis": "Sigue las rivalidades políticas y el romance durante el reinado de la reina Isabel II, así como los acontecimientos que moldearon la segunda mitad del siglo XX."
     },
     {
+        "id": 9,
         "titulo": "Peaky Blinders",
         "generos": [
             "Crimen",
@@ -105,6 +114,7 @@
         "sinopsis": "Una epopeya de una familia gánster en Birmingham, Inglaterra, en 1919, centrada en una banda que cose cuchillas de afeitar en las viseras de sus gorras y en su feroz jefe, Tommy Shelby."
     },
     {
+        "id": 10,
         "titulo": "Black Mirror",
         "generos": [
             "Ciencia ficción",
@@ -117,6 +127,7 @@
         "sinopsis": "Una serie de antología ambientada en un futuro cercano que explora cómo las innovaciones tecnológicas chocan con los oscuros e impredecibles instintos humanos."
     },
     {
+        "id": 11,
         "titulo": "Dark",
         "generos": [
             "Ciencia ficción",
@@ -129,6 +140,7 @@
         "sinopsis": "La desaparición de dos niños en un pueblo alemán saca a la luz las dobles vidas y las relaciones rotas entre cuatro familias, revelando un misterio que abarca tres generaciones."
     },
     {
+        "id": 12,
         "titulo": "Better Call Saul",
         "generos": [
             "Drama",
@@ -140,6 +152,7 @@
         "sinopsis": "Las pruebas y tribulaciones del abogado defensor Jimmy McGill antes de su fatídico encuentro con Walter White y convertirse en el extravagante Saul Goodman."
     },
     {
+        "id": 13,
         "titulo": "Succession",
         "generos": [
             "Drama"
@@ -150,6 +163,7 @@
         "sinopsis": "La familia Roy es conocida por controlar la empresa de medios y entretenimiento Royco. Sin embargo, su mundo cambia cuando su anciano padre decide dar un paso al costado."
     },
     {
+        "id": 14,
         "titulo": "The Last of Us",
         "generos": [
             "Drama",
@@ -162,6 +176,7 @@
         "sinopsis": "Tras la destrucción de la civilización moderna, un superviviente firme se hace cargo de una niña de 14 años que puede ser la última esperanza de la humanidad."
     },
     {
+        "id": 15,
         "titulo": "House of the Dragon",
         "generos": [
             "Fantasía",
@@ -174,6 +189,7 @@
         "sinopsis": "Ambientada 200 años antes de los eventos de Game of Thrones, cuenta la historia del principio del fin de la Casa Targaryen y los eventos que condujeron a la guerra civil."
     },
     {
+        "id": 16,
         "titulo": "The Boys",
         "generos": [
             "Acción",
