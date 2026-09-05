@@ -16,7 +16,7 @@ SerieMatch es una aplicación de consola diseñada para los fanáticos que pasan
 
 
 
-## Instalación
+## Instalación y ejecución
 
 #### Windows
 
@@ -35,6 +35,9 @@ python -m venv venv
 
 # 5. Instalar las dependencias
 pip install -r requirements.txt
+
+# 6. Ejecutar
+python main.py
 ```
 #### Linux / macOS
 
@@ -53,6 +56,9 @@ source venv/bin/activate
 
 # 5. Instalar las dependencias
 pip install -r requirements.txt
+
+# 6. Ejecutar
+python main.py
 ```
 
 
