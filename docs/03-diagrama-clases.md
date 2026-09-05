@@ -35,4 +35,14 @@ classDiagram
         +hacer_mini_test() dict
         +generar_match(preferencias) Serie
     }
+
+    class ConsolaUI {
+        -motor: MotorRecomendacion
+        -favoritos: GestorFavoritos
+        +__init__(MotorRecomendacion, GestorFavoritos)
+        +iniciar_aplicacion()
+        +mostrar_menu_principal()
+        +ejecutar_mini_test() dict
+        +imprimir_tarjeta_serie(Serie)
+    }
 ```
