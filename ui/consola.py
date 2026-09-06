@@ -1,6 +1,6 @@
 class ConsolaUI:
-    def __init__(self):
-        pass
+    def __init__(self, catalogo):
+        self.catalogo = catalogo
 
     def registrar_usuario(self):
         print("Registrar usuario")
@@ -9,7 +9,16 @@ class ConsolaUI:
         print("Agregar serie")
 
     def ver_series(self):
-        print("Ver series")
+        print("\n=== CATÁLOGO DE SERIES ===")
+
+        if not self.catalogo.series:
+            print("No hay series cargadas en el sistema.")
+            return
+
+        for serie in self.catalogo.series:
+            print(
+                f"[{serie.id}] {serie.titulo} - {serie.plataforma} - {serie.puntuacion}"
+            )
 
     def buscar_serie(self):
         print("Buscar serie")
