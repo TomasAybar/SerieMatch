@@ -21,7 +21,19 @@ class ConsolaUI:
             )
 
     def buscar_serie(self):
-        print("Buscar serie")
+        titulo = input("Ingrese el titulo a buscar: ")      
+        for serie in self.catalogo.series:
+            if titulo.lower() in serie.titulo.lower():
+                print(serie)
+        print("Fin de resultados")
+
+    def filtrar_x_genero(self):
+        genero = input("Ingrese el género a filtrar: ")
+        for serie in self.catalogo.series:
+            for g in serie.generos:
+                if genero.lower() in g.lower():
+                   print(serie)
+        print("Fin de resultados")
 
     def dejar_resena(self):
         print("Dejar reseña")
@@ -37,6 +49,7 @@ class ConsolaUI:
             print("3. Ver series")
             print("4. Buscar serie")
             print("5. Dejar reseña")
+            print("6. Filtrar por género")
             print("0. Salir")
 
             opcion = input("Seleccione una opción: ")
@@ -51,6 +64,8 @@ class ConsolaUI:
                 self.buscar_serie()
             elif opcion == "5":
                 self.dejar_resena()
+            elif opcion == "6":
+                self.filtrar_x_genero()
             elif opcion == "0":
                 print("Saliendo...")
                 break
