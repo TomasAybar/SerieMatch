@@ -1,6 +1,7 @@
 class ConsolaUI:
-    def __init__(self, catalogo):
+    def __init__(self, catalogo, arbol):
         self.catalogo = catalogo
+        self.arbol = arbol
 
     def registrar_usuario(self):
         print("Registrar usuario")
@@ -20,11 +21,25 @@ class ConsolaUI:
                 f"[{serie.id}] {serie.titulo} - {serie.plataforma} - {serie.puntuacion}"
             )
 
-    def buscar_serie(self):
-        titulo = input("Ingrese el titulo a buscar: ")      
+    def busqueda_secuencial(self):
+        titulo = input("Ingrese el titulo a buscar: ")
+        resultado = None      
         for serie in self.catalogo.series:
             if titulo.lower() in serie.titulo.lower():
-                print(serie)
+                resultado = serie
+        if resultado:
+            print(resultado)
+        else:
+            print("No se encontro")
+        print("Fin de resultados")
+        
+    def busqueda_BST(self):
+        titulo = input("Ingrese el titulo a buscar: ")
+        resultado = self.arbol.buscar(titulo.lower(), clave=lambda s: s.titulo.lower())
+        if resultado:
+            print(resultado)
+        else:
+            print("No se encontró")
         print("Fin de resultados")
 
     def filtrar_x_genero(self):
@@ -61,7 +76,7 @@ class ConsolaUI:
             elif opcion == "3":
                 self.ver_series()
             elif opcion == "4":
-                self.buscar_serie()
+                self.busqueda_BST()
             elif opcion == "5":
                 self.dejar_resena()
             elif opcion == "6":
