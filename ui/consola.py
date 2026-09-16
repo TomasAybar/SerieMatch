@@ -27,6 +27,7 @@ class ConsolaUI:
         for serie in self.catalogo.series:
             if titulo.lower() in serie.titulo.lower():
                 resultado = serie
+                break
         if resultado:
             print(resultado)
         else:
