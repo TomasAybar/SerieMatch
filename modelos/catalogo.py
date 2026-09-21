@@ -15,9 +15,10 @@ from utils.adaptadores import normalizar_json_local
 
 
 class Catalogo:
-    def __init__(self):
+    def __init__(self, arbol):
         # -series: list
         self.series = []
+        self.arbol = arbol
 
     # metodos
 
@@ -57,10 +58,23 @@ class Catalogo:
         except json.JSONDecodeError:
             print("[Error] El archivo JSON está corrupto o mal formateado.")
 
+        finally:
+            self.insertar_clave_arbol()
+
     # +buscar_por_titulo(titulo) Serie
     def buscar_por_titulo(self, titulo):
-        print(f'bucando serie con el titulo... "{titulo}"')
-        # agregar logica de recorrer self series y devolver series que coincidan con el titulo recibido
+        """'busqueda por titulo secuencial"""
+        titulo = input("Ingrese el titulo a buscar: ")
+        resultado = None
+        for serie in self.catalogo.series:
+            if titulo.lower() in serie.titulo.lower():
+                resultado = serie
+                break
+        if resultado:
+            print(resultado)
+        else:
+            print("No se encontro")
+        print("Fin de resultados")
 
     # +obtener_ranking() list
     def obtener_ranking(self):
@@ -73,3 +87,36 @@ class Catalogo:
         print("Filtrando seriess..")
         return []
         # agregar logica de aplicar filtros sobre series y devolver resultados
+
+    def buscar_por_titulo_BST(self):
+        titulo = input("Ingrese el titulo a buscar: ")
+        resultado = self.arbol.buscar(titulo.lower(), clave=lambda s: s.titulo.lower())
+        if resultado:
+            print(resultado)
+        else:
+            print("No se encontró")
+        print("Fin de resultados")
+
+    def insertar_clave_arbol(self):
+        for serie in self.series:
+            self.arbol.insertar(serie, clave=lambda s: s.titulo.lower())
+
+    def filtrar_serie_x_genero(self):
+        genero = input("Ingrese el género a filtrar: ")
+        for serie in self.series:
+            for g in serie.generos:
+                if genero.lower() in g.lower():
+                    print(serie)
+        print("Fin de resultados")
+
+    def listar_series(self):
+        print("\n=== CATÁLOGO DE SERIES ===")
+
+        if not self.series:
+            print("No hay series cargadas en el sistema.")
+            return
+
+        for serie in self.series:
+            print(
+                f"[{serie.id}] {serie.titulo} - {serie.plataforma} - {serie.puntuacion}"
+            )

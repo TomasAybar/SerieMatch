@@ -1,7 +1,6 @@
 class ConsolaUI:
-    def __init__(self, catalogo, arbol):
+    def __init__(self, catalogo):
         self.catalogo = catalogo
-        self.arbol = arbol
 
     def registrar_usuario(self):
         print("Registrar usuario")
@@ -9,53 +8,10 @@ class ConsolaUI:
     def agregar_serie(self):
         print("Agregar serie")
 
-    def ver_series(self):
-        print("\n=== CATÁLOGO DE SERIES ===")
-
-        if not self.catalogo.series:
-            print("No hay series cargadas en el sistema.")
-            return
-
-        for serie in self.catalogo.series:
-            print(
-                f"[{serie.id}] {serie.titulo} - {serie.plataforma} - {serie.puntuacion}"
-            )
-
-    def busqueda_secuencial(self):
-        titulo = input("Ingrese el titulo a buscar: ")
-        resultado = None      
-        for serie in self.catalogo.series:
-            if titulo.lower() in serie.titulo.lower():
-                resultado = serie
-                break
-        if resultado:
-            print(resultado)
-        else:
-            print("No se encontro")
-        print("Fin de resultados")
-        
-    def busqueda_BST(self):
-        titulo = input("Ingrese el titulo a buscar: ")
-        resultado = self.arbol.buscar(titulo.lower(), clave=lambda s: s.titulo.lower())
-        if resultado:
-            print(resultado)
-        else:
-            print("No se encontró")
-        print("Fin de resultados")
-
-    def filtrar_x_genero(self):
-        genero = input("Ingrese el género a filtrar: ")
-        for serie in self.catalogo.series:
-            for g in serie.generos:
-                if genero.lower() in g.lower():
-                   print(serie)
-        print("Fin de resultados")
-
     def dejar_resena(self):
         print("Dejar reseña")
 
     def iniciar_aplicacion(self):
-        print("Ejecuto iniciar app..")
         while True:
             print("""==============================================================
         🎥   BIENVENIDO A SERIEMATCH (CLI Edition)  🎥 
@@ -75,13 +31,13 @@ class ConsolaUI:
             elif opcion == "2":
                 self.agregar_serie()
             elif opcion == "3":
-                self.ver_series()
+                self.catalogo.listar_series()
             elif opcion == "4":
-                self.busqueda_BST()
+                self.catalogo.buscar_por_titulo_BST()
             elif opcion == "5":
                 self.dejar_resena()
             elif opcion == "6":
-                self.filtrar_x_genero()
+                self.catalogo.filtrar_serie_x_genero()
             elif opcion == "0":
                 print("Saliendo...")
                 break
