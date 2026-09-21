@@ -9,7 +9,9 @@ import matplotlib.pyplot as plt
 from estructuras.arbol_binario import ArbolBST
 from modelos.catalogo import Catalogo
 
-ruta = 'datos/generados/series_'
+ruta_cargar_series = 'datos/generados/series_'
+
+ruta_guardar_graficos = "docs/capturas"
 
 def crear_grafico(tamaños, secuencial, binaria, arbol):
     # plt.figure(figsize=(8, 5))
@@ -32,9 +34,9 @@ def crear_grafico(tamaños, secuencial, binaria, arbol):
     # plt.tight_layout()
     
     # Guardar imagen en la carpeta correspondiente
-    os.makedirs("docs/capturas", exist_ok=True)
-    plt.savefig("docs/capturas/experimento-tp3-test.png", dpi=300)
-    print("\nGráfico guardado en 'docs/capturas/experimento-tp3-test.png'")
+    os.makedirs(ruta_guardar_graficos, exist_ok=True)
+    plt.savefig(f"{ruta_guardar_graficos}/experimento-tp3.png", dpi=300)
+    print(f"\nGráfico guardado en '{ruta_guardar_graficos}/experimento-tp3.png'")
     plt.close()
 
 def medir_arbol(lista, titulo):
@@ -61,7 +63,7 @@ def main() -> None:
     for n in tamaños:
         catalogo = Catalogo()
 
-        catalogo.cargar_desde_json(f"{ruta}{n}.json")
+        catalogo.cargar_desde_json(f"{ruta_cargar_series}{n}.json")
         catalogo.ordenar_por_titulo()
         
         titulo_probe = f"Serie {n - 1}" # existe → no rompe el caso "no encontrado"
