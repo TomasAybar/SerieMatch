@@ -200,407 +200,408 @@
         "puntuacion": 8.7,
         "plataforma": "Prime Video",
         "sinopsis": "Un grupo de vigilantes se propone acabar con los superhéroes corruptos que abusan de sus superpoderes y de la corporación millonaria que los gestiona."
+    },
+    {
+        "id": 17,
+        "titulo": "The Big Bang Theory",
+        "generos": [
+            "Comedia",
+            "Romance",
+            "Sitcom"
+        ],
+        "duracion_min": 22,
+        "puntuacion": 8.1,
+        "plataforma": "Max",
+        "sinopsis": "Leonard y Sheldon son dos brillantes físicos que comparten departamento y llevan una vida marcada por la ciencia, los videojuegos y sus particulares relaciones sociales, hasta que Penny se muda al departamento de enfrente."
+    },
+    {
+        "id": 18,
+        "titulo": "Stranger Things",
+        "generos": [
+            "Drama",
+            "Ciencia Ficción",
+            "Fantasía",
+            "Terror",
+            "Misterio"
+        ],
+        "duracion_min": 60,
+        "puntuacion": 8.6,
+        "plataforma": "Netflix",
+        "sinopsis": "En el pueblo de Hawkins, la desaparición de un niño lleva a sus amigos y familiares a descubrir experimentos secretos, poderes sobrenaturales y una misteriosa dimensión alternativa."
+    },
+    {
+        "id": 19,
+        "titulo": "Wednesday",
+        "generos": [
+            "Comedia",
+            "Fantasía",
+            "Terror",
+            "Misterio"
+        ],
+        "duracion_min": 45,
+        "puntuacion": 8.0,
+        "plataforma": "Netflix",
+        "sinopsis": "Wednesday Addams comienza sus estudios en la Academia Nevermore, donde intenta controlar sus poderes psíquicos mientras investiga una serie de misterios y sucesos sobrenaturales."
+    },
+    {
+        "id": 20,
+        "titulo": "Bridgerton",
+        "generos": [
+            "Drama",
+            "Romance",
+            "Drama de época"
+        ],
+        "duracion_min": 60,
+        "puntuacion": 7.5,
+        "plataforma": "Netflix",
+        "sinopsis": "La familia Bridgerton busca encontrar el amor y mantener su posición dentro de la alta sociedad londinense durante la época de la Regencia, entre romances, secretos y conflictos familiares."
+    },
+    {
+        "id": 21,
+        "titulo": "Friends",
+        "generos": [
+            "Comedia",
+            "Romance",
+            "Sitcom"
+        ],
+        "duracion_min": 22,
+        "puntuacion": 8.9,
+        "plataforma": "Max",
+        "sinopsis": "Seis amigos atraviesan relaciones, problemas laborales y situaciones cotidianas mientras comparten gran parte de sus vidas en Nueva York."
+    },
+    {
+        "id": 22,
+        "titulo": "The Witcher",
+        "generos": [
+            "Fantasía",
+            "Acción",
+            "Drama",
+            "Aventura"
+        ],
+        "duracion_min": 60,
+        "puntuacion": 7.9,
+        "plataforma": "Netflix",
+        "sinopsis": "Geralt de Rivia, un cazador de monstruos mutado, recorre un mundo fantástico mientras su destino queda relacionado con una joven princesa y una poderosa hechicera."
+    },
+    {
+        "id": 23,
+        "titulo": "Cobra Kai",
+        "generos": [
+            "Comedia",
+            "Drama",
+            "Acción",
+            "Artes Marciales"
+        ],
+        "duracion_min": 30,
+        "puntuacion": 8.4,
+        "plataforma": "Netflix",
+        "sinopsis": "Décadas después de su enfrentamiento en un torneo de karate, Johnny Lawrence decide reabrir el dojo Cobra Kai y vuelve a encontrarse con Daniel LaRusso."
+    },
+    {
+        "id": 24,
+        "titulo": "Loki",
+        "generos": [
+            "Ciencia Ficción",
+            "Fantasía",
+            "Acción",
+            "Aventura"
+        ],
+        "duracion_min": 50,
+        "puntuacion": 8.2,
+        "plataforma": "Disney+",
+        "sinopsis": "Una versión alternativa de Loki es reclutada por una organización que controla las líneas temporales y debe enfrentarse a diferentes amenazas relacionadas con el tiempo."
+    },
+    {
+        "id": 25,
+        "titulo": "The Walking Dead",
+        "generos": [
+            "Drama",
+            "Terror",
+            "Acción",
+            "Suspenso"
+        ],
+        "duracion_min": 45,
+        "puntuacion": 8.1,
+        "plataforma": "Disney+",
+        "sinopsis": "Un grupo de sobrevivientes intenta mantenerse con vida en un mundo devastado por una epidemia que convierte a los muertos en criaturas peligrosas."
+    },
+    {
+        "id": 26,
+        "titulo": "Lost",
+        "generos": [
+            "Drama",
+            "Misterio",
+            "Ciencia Ficción",
+            "Aventura"
+        ],
+        "duracion_min": 43,
+        "puntuacion": 8.3,
+        "plataforma": "Disney+",
+        "sinopsis": "Los sobrevivientes de un accidente aéreo quedan atrapados en una misteriosa isla donde descubren secretos, peligros y acontecimientos que desafían toda explicación."
+    },
+    {
+        "id": 27,
+        "titulo": "Sherlock",
+        "generos": [
+            "Drama",
+            "Crimen",
+            "Misterio",
+            "Suspenso"
+        ],
+        "duracion_min": 90,
+        "puntuacion": 9.1,
+        "plataforma": "Prime Video",
+        "sinopsis": "Sherlock Holmes y el doctor John Watson resuelven complejos casos criminales en el Londres moderno utilizando observación, deducción y métodos poco convencionales."
+    },
+    {
+        "id": 28,
+        "titulo": "Vikings",
+        "generos": [
+            "Drama",
+            "Historia",
+            "Acción",
+            "Aventura"
+        ],
+        "duracion_min": 45,
+        "puntuacion": 8.5,
+        "plataforma": "Netflix",
+        "sinopsis": "Ragnar Lothbrok busca convertirse en un gran líder vikingo y explorar nuevos territorios mientras enfrenta guerras, alianzas y conflictos familiares."
+    },
+    {
+        "id": 29,
+        "titulo": "Mr. Robot",
+        "generos": [
+            "Drama",
+            "Crimen",
+            "Suspenso",
+            "Tecnología"
+        ],
+        "duracion_min": 45,
+        "puntuacion": 8.5,
+        "plataforma": "Prime Video",
+        "sinopsis": "Elliot, un joven experto en informática, es reclutado por un grupo de hackers que planea atacar a una de las mayores corporaciones del mundo."
+    },
+    {
+        "id": 30,
+        "titulo": "Suits",
+        "generos": [
+            "Drama",
+            "Comedia"
+        ],
+        "duracion_min": 44,
+        "puntuacion": 8.4,
+        "plataforma": "Netflix",
+        "sinopsis": "Un brillante joven sin título universitario consigue trabajo en un prestigioso estudio de abogados gracias a su extraordinaria memoria y sus conocimientos legales."
+    },
+    {
+        "id": 31,
+        "titulo": "You",
+        "generos": [
+            "Drama",
+            "Suspenso",
+            "Crimen",
+            "Romance"
+        ],
+        "duracion_min": 45,
+        "puntuacion": 7.6,
+        "plataforma": "Netflix",
+        "sinopsis": "Joe Goldberg es un hombre aparentemente encantador que desarrolla una peligrosa obsesión por las personas de las que se enamora y comienza a controlar sus vidas."
+    },
+    {
+        "id": 32,
+        "titulo": "The Umbrella Academy",
+        "generos": [
+            "Ciencia Ficción",
+            "Fantasía",
+            "Acción",
+            "Comedia"
+        ],
+        "duracion_min": 50,
+        "puntuacion": 7.8,
+        "plataforma": "Netflix",
+        "sinopsis": "Un grupo de hermanos adoptivos con poderes extraordinarios se reúne después de la muerte de su padre y descubre que debe evitar una inminente amenaza mundial."
+    },
+    {
+        "id": 33,
+        "titulo": "Arcane",
+        "generos": [
+            "Animación",
+            "Acción",
+            "Fantasía",
+            "Ciencia Ficción"
+        ],
+        "duracion_min": 40,
+        "puntuacion": 9.0,
+        "plataforma": "Netflix",
+        "sinopsis": "Dos hermanas quedan enfrentadas por un conflicto entre dos ciudades mientras las tensiones sociales, la tecnología y los poderes políticos transforman sus vidas."
+    },
+    {
+        "id": 34,
+        "titulo": "House",
+        "generos": [
+            "Drama",
+            "Misterio",
+            "Comedia"
+        ],
+        "duracion_min": 44,
+        "puntuacion": 8.7,
+        "plataforma": "Prime Video",
+        "sinopsis": "El brillante pero conflictivo doctor Gregory House dirige un equipo médico especializado en diagnosticar enfermedades complejas que otros médicos no logran identificar."
+    },
+    {
+        "id": 35,
+        "titulo": "How I Met Your Mother",
+        "generos": [
+            "Comedia",
+            "Romance",
+            "Sitcom"
+        ],
+        "duracion_min": 22,
+        "puntuacion": 8.3,
+        "plataforma": "Disney+",
+        "sinopsis": "Ted Mosby les cuenta a sus hijos cómo conoció a su madre, relatando las experiencias, relaciones y aventuras que vivió junto a sus mejores amigos en Nueva York."
+    },
+    {
+        "id": 36,
+        "titulo": "Modern Family",
+        "generos": [
+            "Comedia",
+            "Sitcom",
+            "Familia"
+        ],
+        "duracion_min": 22,
+        "puntuacion": 8.5,
+        "plataforma": "Disney+",
+        "sinopsis": "Tres familias relacionadas entre sí atraviesan situaciones cotidianas, conflictos y momentos divertidos mientras intentan mantener unida a una familia moderna y diversa."
+    },
+    {
+        "id": 37,
+        "titulo": "The Good Doctor",
+        "generos": [
+            "Drama",
+            "Medicina"
+        ],
+        "duracion_min": 43,
+        "puntuacion": 8.0,
+        "plataforma": "Netflix",
+        "sinopsis": "Shaun Murphy, un joven cirujano con una extraordinaria capacidad para diagnosticar enfermedades, comienza a trabajar en un prestigioso hospital mientras enfrenta los desafíos de su profesión."
+    },
+    {
+        "id": 38,
+        "titulo": "Silo",
+        "generos": [
+            "Ciencia Ficción",
+            "Drama",
+            "Misterio",
+            "Suspenso"
+        ],
+        "duracion_min": 50,
+        "puntuacion": 8.1,
+        "plataforma": "Apple TV+",
+        "sinopsis": "Miles de personas viven bajo tierra en un enorme silo que supuestamente las protege de un mundo exterior inhabitable, pero una ingeniera comienza a cuestionar los secretos de su sociedad."
+    },
+    {
+        "id": 39,
+        "titulo": "Severance",
+        "generos": [
+            "Ciencia Ficción",
+            "Drama",
+            "Misterio",
+            "Suspenso"
+        ],
+        "duracion_min": 50,
+        "puntuacion": 8.6,
+        "plataforma": "Apple TV+",
+        "sinopsis": "Un grupo de empleados se somete a un procedimiento que separa sus recuerdos laborales de los personales, generando una misteriosa situación dentro de la empresa donde trabajan."
+    },
+    {
+        "id": 40,
+        "titulo": "The Bear",
+        "generos": [
+            "Drama",
+            "Comedia"
+        ],
+        "duracion_min": 30,
+        "puntuacion": 8.5,
+        "plataforma": "Disney+",
+        "sinopsis": "Un joven chef de alta cocina regresa a Chicago para hacerse cargo del restaurante familiar y debe adaptarse a un equipo complicado mientras intenta transformar el negocio."
+    },
+    {
+        "id": 41,
+        "titulo": "Euphoria",
+        "generos": [
+            "Drama",
+            "Romance"
+        ],
+        "duracion_min": 55,
+        "puntuacion": 8.3,
+        "plataforma": "Max",
+        "sinopsis": "Un grupo de adolescentes atraviesa relaciones, conflictos familiares y distintas dificultades mientras intenta encontrar su lugar durante una etapa marcada por cambios personales."
+    },
+    {
+        "id": 42,
+        "titulo": "Money Heist",
+        "generos": [
+            "Drama",
+            "Crimen",
+            "Acción",
+            "Suspenso"
+        ],
+        "duracion_min": 50,
+        "puntuacion": 8.2,
+        "plataforma": "Netflix",
+        "sinopsis": "Un grupo de delincuentes cuidadosamente seleccionado participa en elaborados atracos dirigidos por un misterioso hombre conocido como El Profesor."
+    },
+    {
+        "id": 43,
+        "titulo": "Ozark",
+        "generos": [
+            "Drama",
+            "Crimen",
+            "Suspenso"
+        ],
+        "duracion_min": 60,
+        "puntuacion": 8.4,
+        "plataforma": "Netflix",
+        "sinopsis": "Un asesor financiero se muda con su familia a los Ozarks y debe lavar una enorme cantidad de dinero para un poderoso cartel mientras intenta mantener a salvo a los suyos."
+    },
+    {
+        "id": 44,
+        "titulo": "The Queen's Gambit",
+        "generos": [
+            "Drama",
+            "Historia"
+        ],
+        "duracion_min": 60,
+        "puntuacion": 8.5,
+        "plataforma": "Netflix",
+        "sinopsis": "Una joven prodigio del ajedrez intenta convertirse en una de las mejores jugadoras del mundo mientras enfrenta desafíos personales y la presión de la competencia."
+    },
+    {
+        "id": 45,
+        "titulo": "The Haunting of Hill House",
+        "generos": [
+            "Terror",
+            "Drama",
+            "Misterio"
+        ],
+        "duracion_min": 55,
+        "puntuacion": 8.5,
+        "plataforma": "Netflix",
+        "sinopsis": "Una familia que vivió durante un tiempo en una misteriosa mansión debe enfrentar los recuerdos y consecuencias de los sucesos sobrenaturales que experimentó allí."
+    },
+    {
+        "id": 46,
+        "titulo": "Alice in Borderland",
+        "generos": [
+            "Ciencia Ficción",
+            "Acción",
+            "Suspenso",
+            "Misterio"
+        ],
+        "duracion_min": 45,
+        "puntuacion": 7.7,
+        "plataforma": "Netflix",
+        "sinopsis": "Un joven y sus amigos aparecen en una versión misteriosamente vacía de Tokio y deben participar en peligrosos juegos para conseguir cartas que les permitan sobrevivir."
     }
-    {
-    "id": 17,
-    "titulo": "The Big Bang Theory",
-    "generos": [
-        "Comedia",
-        "Romance",
-        "Sitcom"
-    ],
-    "duracion_min": 22,
-    "puntuacion": 8.1,
-    "plataforma": "Max",
-    "sinopsis": "Leonard y Sheldon son dos brillantes físicos que comparten departamento y llevan una vida marcada por la ciencia, los videojuegos y sus particulares relaciones sociales, hasta que Penny se muda al departamento de enfrente."
-    },
-    {
-    "id": 18,
-    "titulo": "Stranger Things",
-    "generos": [
-        "Drama",
-        "Ciencia Ficción",
-        "Fantasía",
-        "Terror",
-        "Misterio"
-    ],
-    "duracion_min": 60,
-    "puntuacion": 8.6,
-    "plataforma": "Netflix",
-    "sinopsis": "En el pueblo de Hawkins, la desaparición de un niño lleva a sus amigos y familiares a descubrir experimentos secretos, poderes sobrenaturales y una misteriosa dimensión alternativa."
-    },
-    {
-    "id": 19,
-    "titulo": "Wednesday",
-    "generos": [
-        "Comedia",
-        "Fantasía",
-        "Terror",
-        "Misterio"
-    ],
-    "duracion_min": 45,
-    "puntuacion": 8.0,
-    "plataforma": "Netflix",
-    "sinopsis": "Wednesday Addams comienza sus estudios en la Academia Nevermore, donde intenta controlar sus poderes psíquicos mientras investiga una serie de misterios y sucesos sobrenaturales."
-    },
-    {
-    "id": 20,
-    "titulo": "Bridgerton",
-    "generos": [
-        "Drama",
-        "Romance",
-        "Drama de época"
-    ],
-    "duracion_min": 60,
-    "puntuacion": 7.5,
-    "plataforma": "Netflix",
-    "sinopsis": "La familia Bridgerton busca encontrar el amor y mantener su posición dentro de la alta sociedad londinense durante la época de la Regencia, entre romances, secretos y conflictos familiares."
-    },
-    {
-    "id": 21,
-    "titulo": "Friends",
-    "generos": [
-        "Comedia",
-        "Romance",
-        "Sitcom"
-    ],
-    "duracion_min": 22,
-    "puntuacion": 8.9,
-    "plataforma": "Max",
-    "sinopsis": "Seis amigos atraviesan relaciones, problemas laborales y situaciones cotidianas mientras comparten gran parte de sus vidas en Nueva York."
-    },
-    {
-    "id": 22,
-    "titulo": "The Witcher",
-    "generos": [
-        "Fantasía",
-        "Acción",
-        "Drama",
-        "Aventura"
-    ],
-    "duracion_min": 60,
-    "puntuacion": 7.9,
-    "plataforma": "Netflix",
-    "sinopsis": "Geralt de Rivia, un cazador de monstruos mutado, recorre un mundo fantástico mientras su destino queda relacionado con una joven princesa y una poderosa hechicera."
-    },
-    {
-    "id": 23,
-    "titulo": "Cobra Kai",
-    "generos": [
-        "Comedia",
-        "Drama",
-        "Acción",
-        "Artes Marciales"
-    ],
-    "duracion_min": 30,
-    "puntuacion": 8.4,
-    "plataforma": "Netflix",
-    "sinopsis": "Décadas después de su enfrentamiento en un torneo de karate, Johnny Lawrence decide reabrir el dojo Cobra Kai y vuelve a encontrarse con Daniel LaRusso."
-    },
-    {
-    "id": 24,
-    "titulo": "Loki",
-    "generos": [
-        "Ciencia Ficción",
-        "Fantasía",
-        "Acción",
-        "Aventura"
-    ],
-    "duracion_min": 50,
-    "puntuacion": 8.2,
-    "plataforma": "Disney+",
-    "sinopsis": "Una versión alternativa de Loki es reclutada por una organización que controla las líneas temporales y debe enfrentarse a diferentes amenazas relacionadas con el tiempo."
-    },
-    {
-    "id": 25,
-    "titulo": "The Walking Dead",
-    "generos": [
-        "Drama",
-        "Terror",
-        "Acción",
-        "Suspenso"
-    ],
-    "duracion_min": 45,
-    "puntuacion": 8.1,
-    "plataforma": "Disney+",
-    "sinopsis": "Un grupo de sobrevivientes intenta mantenerse con vida en un mundo devastado por una epidemia que convierte a los muertos en criaturas peligrosas."
-    },
-    {
-    "id": 26,
-    "titulo": "Lost",
-    "generos": [
-        "Drama",
-        "Misterio",
-        "Ciencia Ficción",
-        "Aventura"
-    ],
-    "duracion_min": 43,
-    "puntuacion": 8.3,
-    "plataforma": "Disney+",
-    "sinopsis": "Los sobrevivientes de un accidente aéreo quedan atrapados en una misteriosa isla donde descubren secretos, peligros y acontecimientos que desafían toda explicación."
-    },
-    {
-    "id": 27,
-    "titulo": "Sherlock",
-    "generos": [
-        "Drama",
-        "Crimen",
-        "Misterio",
-        "Suspenso"
-    ],
-    "duracion_min": 90,
-    "puntuacion": 9.1,
-    "plataforma": "Prime Video",
-    "sinopsis": "Sherlock Holmes y el doctor John Watson resuelven complejos casos criminales en el Londres moderno utilizando observación, deducción y métodos poco convencionales."
-    },
-    {
-    "id": 28,
-    "titulo": "Vikings",
-    "generos": [
-        "Drama",
-        "Historia",
-        "Acción",
-        "Aventura"
-    ],
-    "duracion_min": 45,
-    "puntuacion": 8.5,
-    "plataforma": "Netflix",
-    "sinopsis": "Ragnar Lothbrok busca convertirse en un gran líder vikingo y explorar nuevos territorios mientras enfrenta guerras, alianzas y conflictos familiares."
-    },
-    {
-    "id": 29,
-    "titulo": "Mr. Robot",
-    "generos": [
-        "Drama",
-        "Crimen",
-        "Suspenso",
-        "Tecnología"
-    ],
-    "duracion_min": 45,
-    "puntuacion": 8.5,
-    "plataforma": "Prime Video",
-    "sinopsis": "Elliot, un joven experto en informática, es reclutado por un grupo de hackers que planea atacar a una de las mayores corporaciones del mundo."
-    },
-    {
-    "id": 30,
-    "titulo": "Suits",
-    "generos": [
-        "Drama",
-        "Comedia"
-    ],
-    "duracion_min": 44,
-    "puntuacion": 8.4,
-    "plataforma": "Netflix",
-    "sinopsis": "Un brillante joven sin título universitario consigue trabajo en un prestigioso estudio de abogados gracias a su extraordinaria memoria y sus conocimientos legales."
-    },
-    {
-    "id": 31,
-    "titulo": "You",
-    "generos": [
-        "Drama",
-        "Suspenso",
-        "Crimen",
-        "Romance"
-    ],
-    "duracion_min": 45,
-    "puntuacion": 7.6,
-    "plataforma": "Netflix",
-    "sinopsis": "Joe Goldberg es un hombre aparentemente encantador que desarrolla una peligrosa obsesión por las personas de las que se enamora y comienza a controlar sus vidas."
-    },
-    {
-    "id": 32,
-    "titulo": "The Umbrella Academy",
-    "generos": [
-        "Ciencia Ficción",
-        "Fantasía",
-        "Acción",
-        "Comedia"
-    ],
-    "duracion_min": 50,
-    "puntuacion": 7.8,
-    "plataforma": "Netflix",
-    "sinopsis": "Un grupo de hermanos adoptivos con poderes extraordinarios se reúne después de la muerte de su padre y descubre que debe evitar una inminente amenaza mundial."
-    },
-    {
-    "id": 33,
-    "titulo": "Arcane",
-    "generos": [
-        "Animación",
-        "Acción",
-        "Fantasía",
-        "Ciencia Ficción"
-    ],
-    "duracion_min": 40,
-    "puntuacion": 9.0,
-    "plataforma": "Netflix",
-    "sinopsis": "Dos hermanas quedan enfrentadas por un conflicto entre dos ciudades mientras las tensiones sociales, la tecnología y los poderes políticos transforman sus vidas."
-    },
-    {
-    "id": 34,
-    "titulo": "House",
-    "generos": [
-        "Drama",
-        "Misterio",
-        "Comedia"
-    ],
-    "duracion_min": 44,
-    "puntuacion": 8.7,
-    "plataforma": "Prime Video",
-    "sinopsis": "El brillante pero conflictivo doctor Gregory House dirige un equipo médico especializado en diagnosticar enfermedades complejas que otros médicos no logran identificar."
-    },
-    {
-    "id": 35,
-    "titulo": "How I Met Your Mother",
-    "generos": [
-        "Comedia",
-        "Romance",
-        "Sitcom"
-    ],
-    "duracion_min": 22,
-    "puntuacion": 8.3,
-    "plataforma": "Disney+",
-    "sinopsis": "Ted Mosby les cuenta a sus hijos cómo conoció a su madre, relatando las experiencias, relaciones y aventuras que vivió junto a sus mejores amigos en Nueva York."
-    },
-    {
-    "id": 36,
-    "titulo": "Modern Family",
-    "generos": [
-        "Comedia",
-        "Sitcom",
-        "Familia"
-    ],
-    "duracion_min": 22,
-    "puntuacion": 8.5,
-    "plataforma": "Disney+",
-    "sinopsis": "Tres familias relacionadas entre sí atraviesan situaciones cotidianas, conflictos y momentos divertidos mientras intentan mantener unida a una familia moderna y diversa."
-    },
-    {
-    "id": 37,
-    "titulo": "The Good Doctor",
-    "generos": [
-        "Drama",
-        "Medicina"
-    ],
-    "duracion_min": 43,
-    "puntuacion": 8.0,
-    "plataforma": "Netflix",
-    "sinopsis": "Shaun Murphy, un joven cirujano con una extraordinaria capacidad para diagnosticar enfermedades, comienza a trabajar en un prestigioso hospital mientras enfrenta los desafíos de su profesión."
-    },
-    {
-    "id": 38,
-    "titulo": "Silo",
-    "generos": [
-        "Ciencia Ficción",
-        "Drama",
-        "Misterio",
-        "Suspenso"
-    ],
-    "duracion_min": 50,
-    "puntuacion": 8.1,
-    "plataforma": "Apple TV+",
-    "sinopsis": "Miles de personas viven bajo tierra en un enorme silo que supuestamente las protege de un mundo exterior inhabitable, pero una ingeniera comienza a cuestionar los secretos de su sociedad."
-    },
-    {
-    "id": 39,
-    "titulo": "Severance",
-    "generos": [
-        "Ciencia Ficción",
-        "Drama",
-        "Misterio",
-        "Suspenso"
-    ],
-    "duracion_min": 50,
-    "puntuacion": 8.6,
-    "plataforma": "Apple TV+",
-    "sinopsis": "Un grupo de empleados se somete a un procedimiento que separa sus recuerdos laborales de los personales, generando una misteriosa situación dentro de la empresa donde trabajan."
-    },
-    {
-    "id": 40,
-    "titulo": "The Bear",
-    "generos": [
-        "Drama",
-        "Comedia"
-    ],
-    "duracion_min": 30,
-    "puntuacion": 8.5,
-    "plataforma": "Disney+",
-    "sinopsis": "Un joven chef de alta cocina regresa a Chicago para hacerse cargo del restaurante familiar y debe adaptarse a un equipo complicado mientras intenta transformar el negocio."
-    },
-    {
-    "id": 41,
-    "titulo": "Euphoria",
-    "generos": [
-        "Drama",
-        "Romance"
-    ],
-    "duracion_min": 55,
-    "puntuacion": 8.3,
-    "plataforma": "Max",
-    "sinopsis": "Un grupo de adolescentes atraviesa relaciones, conflictos familiares y distintas dificultades mientras intenta encontrar su lugar durante una etapa marcada por cambios personales."
-    },
-    {
-    "id": 42,
-    "titulo": "Money Heist",
-    "generos": [
-        "Drama",
-        "Crimen",
-        "Acción",
-        "Suspenso"
-    ],
-    "duracion_min": 50,
-    "puntuacion": 8.2,
-    "plataforma": "Netflix",
-    "sinopsis": "Un grupo de delincuentes cuidadosamente seleccionado participa en elaborados atracos dirigidos por un misterioso hombre conocido como El Profesor."
-    },
-    {
-    "id": 43,
-    "titulo": "Ozark",
-    "generos": [
-        "Drama",
-        "Crimen",
-        "Suspenso"
-    ],
-    "duracion_min": 60,
-    "puntuacion": 8.4,
-    "plataforma": "Netflix",
-    "sinopsis": "Un asesor financiero se muda con su familia a los Ozarks y debe lavar una enorme cantidad de dinero para un poderoso cartel mientras intenta mantener a salvo a los suyos."
-    },
-    {
-    "id": 44,
-    "titulo": "The Queen's Gambit",
-    "generos": [
-        "Drama",
-        "Historia"
-    ],
-    "duracion_min": 60,
-    "puntuacion": 8.5,
-    "plataforma": "Netflix",
-    "sinopsis": "Una joven prodigio del ajedrez intenta convertirse en una de las mejores jugadoras del mundo mientras enfrenta desafíos personales y la presión de la competencia."
-    },
-    {
-    "id": 45,
-    "titulo": "The Haunting of Hill House",
-    "generos": [
-        "Terror",
-        "Drama",
-        "Misterio"
-    ],
-    "duracion_min": 55,
-    "puntuacion": 8.5,
-    "plataforma": "Netflix",
-    "sinopsis": "Una familia que vivió durante un tiempo en una misteriosa mansión debe enfrentar los recuerdos y consecuencias de los sucesos sobrenaturales que experimentó allí."
-    },
-    {
-    "id": 46,
-    "titulo": "Alice in Borderland",
-    "generos": [
-        "Ciencia Ficción",
-        "Acción",
-        "Suspenso",
-        "Misterio"
-    ],
-    "duracion_min": 45,
-    "puntuacion": 7.7,
-    "plataforma": "Netflix",
-    "sinopsis": "Un joven y sus amigos aparecen en una versión misteriosamente vacía de Tokio y deben participar en peligrosos juegos para conseguir cartas que les permitan sobrevivir."
-    }
+]
