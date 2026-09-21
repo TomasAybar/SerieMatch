@@ -1,6 +1,7 @@
 class ConsolaUI:
-    def __init__(self, catalogo):
+    def __init__(self, catalogo, arbol):
         self.catalogo = catalogo
+        self.arbol = arbol
 
     def registrar_usuario(self):
         print("Registrar usuario")

@@ -8,6 +8,7 @@
 #         }
 
 
+import bisect
 import json
 
 from modelos.serie import Serie
@@ -15,10 +16,9 @@ from utils.adaptadores import normalizar_json_local
 
 
 class Catalogo:
-    def __init__(self, arbol):
+    def __init__(self):
         # -series: list
         self.series = []
-        self.arbol = arbol
 
     # metodos
 
@@ -69,11 +69,13 @@ class Catalogo:
                 return serie
         return None
 
+    """busqueda secuencial"""
     def buscar_serie_titulo(self):
-        """busqueda secuencial"""
+        
 
         titulo = input("Ingrese el titulo a buscar: ")
         resultado = None
+
         for serie in self.series:
             if titulo.lower() in serie.titulo.lower():
                 resultado = serie
@@ -82,17 +84,6 @@ class Catalogo:
             print(resultado)
         else:
             print("No se encontro")
-        print("Fin de resultados")
-
-    def busqueda_BST(self):
-        """busqueda por BST"""
-
-        titulo = input("Ingrese el titulo a buscar: ")
-        resultado = self.arbol.buscar(titulo.lower(), clave=lambda s: s.titulo.lower())
-        if resultado:
-            print(resultado)
-        else:
-            print("No se encontró")
         print("Fin de resultados")
 
     def filtrar_serie_genero(self):
@@ -114,3 +105,14 @@ class Catalogo:
             print(
                 f"[{serie.id}] {serie.titulo} - {serie.plataforma} - {serie.puntuacion}"
             )
+
+    def ordenar_por_titulo(self):
+        self.series.sort(key=lambda p: p.titulo.lower())
+
+    """busqueda binaria"""
+    def buscar_binaria(self, titulo: str):
+        claves = [p.titulo.lower() for p in self.series]
+        indice = bisect.bisect_left(claves, titulo.lower())
+        if indice < len(claves) and claves[indice] == titulo.lower():
+            return self.series[indice]
+        return None

@@ -5,12 +5,13 @@ from ui.consola import ConsolaUI
 
 def main():
 
-    arbol = ArbolBST()
+    
+    mi_catalogo = Catalogo()
 
-    mi_catalogo = Catalogo(arbol=arbol)
     mi_catalogo.cargar_datos(ruta_archivo="datos/series.json")
-
-    app = ConsolaUI(catalogo=mi_catalogo)
+    
+    arbol = ArbolBST()
+    app = ConsolaUI(catalogo=mi_catalogo, arbol=arbol)
 
     for serie in mi_catalogo.series:
         arbol.insertar(serie, clave=lambda s: s.titulo.lower())
