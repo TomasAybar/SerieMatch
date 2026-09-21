@@ -15,9 +15,10 @@ from utils.adaptadores import normalizar_json_local
 
 
 class Catalogo:
-    def __init__(self):
+    def __init__(self, arbol):
         # -series: list
         self.series = []
+        self.arbol = arbol
 
     # metodos
 
@@ -67,3 +68,49 @@ class Catalogo:
             if serie.titulo.lower() == titulo_normalizado:
                 return serie
         return None
+
+    def buscar_serie_titulo(self):
+        """busqueda secuencial"""
+
+        titulo = input("Ingrese el titulo a buscar: ")
+        resultado = None
+        for serie in self.series:
+            if titulo.lower() in serie.titulo.lower():
+                resultado = serie
+                break
+        if resultado:
+            print(resultado)
+        else:
+            print("No se encontro")
+        print("Fin de resultados")
+
+    def busqueda_BST(self):
+        """busqueda por BST"""
+
+        titulo = input("Ingrese el titulo a buscar: ")
+        resultado = self.arbol.buscar(titulo.lower(), clave=lambda s: s.titulo.lower())
+        if resultado:
+            print(resultado)
+        else:
+            print("No se encontró")
+        print("Fin de resultados")
+
+    def filtrar_serie_genero(self):
+        genero = input("Ingrese el género a filtrar: ")
+        for serie in self.series:
+            for g in serie.generos:
+                if genero.lower() in g.lower():
+                    print(serie)
+        print("Fin de resultados")
+
+    def listar_series(self):
+        print("\n=== CATÁLOGO DE SERIES ===")
+
+        if not self.series:
+            print("No hay series cargadas en el sistema.")
+            return
+
+        for serie in self.series:
+            print(
+                f"[{serie.id}] {serie.titulo} - {serie.plataforma} - {serie.puntuacion}"
+            )
