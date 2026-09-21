@@ -1,9 +1,24 @@
 ## 1. ¿Qué resolvimos?
 
+En este TP3 implementamos y analizamos un Árbol Binario de Búsqueda (BST) para mejorar la búsqueda de series dentro del catálogo de SerieMatch.
 
+El árbol utiliza como criterio de ordenamiento el título de cada serie. Se implementaron operaciones de inserción, búsqueda y recorridos del árbol, incluyendo inorder, preorder y postorder.
+
+Además, realizamos pruebas con diferentes cantidades de elementos y comparamos los tiempos de búsqueda utilizando tres métodos: búsqueda secuencial, búsqueda binaria y búsqueda mediante un árbol BST.
+
+El objetivo fue analizar el funcionamiento de estas estructuras y comparar su comportamiento a medida que aumenta la cantidad de datos.
 
 ## 2. Clave de ordenamiento
 
+La clave utilizada para ordenar las series dentro del Árbol Binario de Búsqueda es el atributo titulo.
+
+Para realizar las comparaciones se utiliza el título convertido a minúsculas mediante lower(). De esta manera, la búsqueda no depende de si el usuario ingresa el título utilizando mayúsculas o minúsculas.
+
+Por ejemplo, para la serie "Breaking Bad", la clave utilizada para realizar la comparación es:
+
+breaking bad
+
+Esto permite mantener un criterio de ordenamiento alfabético y realizar búsquedas por título.
 
 ## 3. Prueba del árbol
 Salida de `python -m algoritmos.probar_bst`:
@@ -49,8 +64,6 @@ intente ejecutando:
 ```python -m algoritmos.probar_bst```
 
 
-
-
 ## 4. Comparación de tiempos 
 
 
@@ -78,13 +91,27 @@ tamaño  secuencial_ms   binaria_ms      arbol_ms
 
 ## 5. Análisis de complejidad
 
+La búsqueda secuencial tiene una complejidad temporal de O(n), ya que en el peor caso debe recorrer todos los elementos hasta encontrar la serie buscada.
 
+La búsqueda binaria tiene una complejidad temporal de O(log n), siempre que los elementos se encuentren ordenados y se pueda acceder a ellos por posición.
 
+En un Árbol Binario de Búsqueda, la búsqueda tiene una complejidad promedio de O(log n) cuando el árbol se encuentra razonablemente balanceado. Sin embargo, si el árbol queda desbalanceado, la complejidad puede llegar a O(n), ya que puede comportarse de forma similar a una lista.
 
+En las pruebas realizadas se observó que el BST obtuvo tiempos de búsqueda muy bajos en comparación con los otros métodos. Sin embargo, estos resultados corresponden a la implementación y a los datos utilizados en el experimento, por lo que no significan que el BST siempre sea más rápido.
+
+Los resultados permiten observar cómo las estructuras de datos pueden afectar el rendimiento de las búsquedas cuando aumenta la cantidad de elementos.
 
 ## 6. Conclusión
 
+A partir de este TP pudimos implementar y poner en práctica un Árbol Binario de Búsqueda aplicado al catálogo de series de SerieMatch.
 
+Las pruebas realizadas permitieron comprobar el funcionamiento de las diferentes operaciones del árbol y observar los resultados de sus recorridos y búsquedas.
+
+También comparamos la búsqueda secuencial, la búsqueda binaria y la búsqueda mediante BST utilizando diferentes cantidades de elementos. Los resultados mostraron que el método de búsqueda y la estructura utilizada pueden influir considerablemente en el tiempo de ejecución.
+
+Además, durante el desarrollo encontramos problemas relacionados con la construcción de árboles desbalanceados y con la recursividad, lo que nos permitió comprender mejor las limitaciones de una implementación de BST que no utiliza balanceo automático.
+
+En conclusión, el TP nos permitió aplicar los conceptos de árboles binarios de búsqueda, complejidad algorítmica y medición de rendimiento a un caso concreto dentro del proyecto SerieMatch.
 
 ## 7. Errores o dudas que tuvimos
 
