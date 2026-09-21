@@ -57,19 +57,13 @@ class Catalogo:
         except json.JSONDecodeError:
             print("[Error] El archivo JSON está corrupto o mal formateado.")
 
-    # +buscar_por_titulo(titulo) Serie
-    def buscar_por_titulo(self, titulo):
-        print(f'bucando serie con el titulo... "{titulo}"')
-        # agregar logica de recorrer self series y devolver series que coincidan con el titulo recibido
+    def cargar_desde_json(self, ruta_archivo):
+        self.series = []
+        self.cargar_datos(ruta_archivo=ruta_archivo)
 
-    # +obtener_ranking() list
-    def obtener_ranking(self):
-        print("Obteniendo ranking de series..")
-        return []
-        # agregar logica de ordernar series por puntuacion y retornar lista
-
-    # +filtrar_series(criterios) list
-    def filtrar_series(self):
-        print("Filtrando seriess..")
-        return []
-        # agregar logica de aplicar filtros sobre series y devolver resultados
+    def buscar(self, titulo):
+        titulo_normalizado = titulo.lower()
+        for serie in self.series:
+            if serie.titulo.lower() == titulo_normalizado:
+                return serie
+        return None

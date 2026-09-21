@@ -1,0 +1,1102 @@
+[
+  {
+    "id": 0,
+    "titulo": "Serie 0",
+    "generos": [
+      "Comedia"
+    ],
+    "duracion_min": 36,
+    "puntuacion": 5.3,
+    "plataforma": "Disney+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 1,
+    "titulo": "Serie 1",
+    "generos": [
+      "Drama"
+    ],
+    "duracion_min": 22,
+    "puntuacion": 8.4,
+    "plataforma": "Prime Video",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 2,
+    "titulo": "Serie 2",
+    "generos": [
+      "Ciencia Ficción"
+    ],
+    "duracion_min": 55,
+    "puntuacion": 8.9,
+    "plataforma": "Apple TV+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 3,
+    "titulo": "Serie 3",
+    "generos": [
+      "Drama"
+    ],
+    "duracion_min": 34,
+    "puntuacion": 1.3,
+    "plataforma": "Apple TV+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 4,
+    "titulo": "Serie 4",
+    "generos": [
+      "Fantasía"
+    ],
+    "duracion_min": 49,
+    "puntuacion": 4.6,
+    "plataforma": "Prime Video",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 5,
+    "titulo": "Serie 5",
+    "generos": [
+      "Ciencia Ficción"
+    ],
+    "duracion_min": 27,
+    "puntuacion": 6.8,
+    "plataforma": "Apple TV+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 6,
+    "titulo": "Serie 6",
+    "generos": [
+      "Comedia"
+    ],
+    "duracion_min": 48,
+    "puntuacion": 4.8,
+    "plataforma": "Disney+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 7,
+    "titulo": "Serie 7",
+    "generos": [
+      "Acción"
+    ],
+    "duracion_min": 46,
+    "puntuacion": 1.6,
+    "plataforma": "Netflix",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 8,
+    "titulo": "Serie 8",
+    "generos": [
+      "Ciencia Ficción"
+    ],
+    "duracion_min": 38,
+    "puntuacion": 9.7,
+    "plataforma": "Disney+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 9,
+    "titulo": "Serie 9",
+    "generos": [
+      "Acción"
+    ],
+    "duracion_min": 22,
+    "puntuacion": 5.4,
+    "plataforma": "Disney+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 10,
+    "titulo": "Serie 10",
+    "generos": [
+      "Fantasía"
+    ],
+    "duracion_min": 20,
+    "puntuacion": 7.0,
+    "plataforma": "HBO Max",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 11,
+    "titulo": "Serie 11",
+    "generos": [
+      "Acción"
+    ],
+    "duracion_min": 31,
+    "puntuacion": 3.8,
+    "plataforma": "Disney+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 12,
+    "titulo": "Serie 12",
+    "generos": [
+      "Comedia"
+    ],
+    "duracion_min": 56,
+    "puntuacion": 3.3,
+    "plataforma": "Prime Video",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 13,
+    "titulo": "Serie 13",
+    "generos": [
+      "Ciencia Ficción"
+    ],
+    "duracion_min": 47,
+    "puntuacion": 7.9,
+    "plataforma": "HBO Max",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 14,
+    "titulo": "Serie 14",
+    "generos": [
+      "Fantasía"
+    ],
+    "duracion_min": 41,
+    "puntuacion": 9.0,
+    "plataforma": "Apple TV+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 15,
+    "titulo": "Serie 15",
+    "generos": [
+      "Fantasía"
+    ],
+    "duracion_min": 49,
+    "puntuacion": 9.5,
+    "plataforma": "Netflix",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 16,
+    "titulo": "Serie 16",
+    "generos": [
+      "Drama"
+    ],
+    "duracion_min": 46,
+    "puntuacion": 9.9,
+    "plataforma": "HBO Max",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 17,
+    "titulo": "Serie 17",
+    "generos": [
+      "Fantasía"
+    ],
+    "duracion_min": 25,
+    "puntuacion": 7.8,
+    "plataforma": "Disney+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 18,
+    "titulo": "Serie 18",
+    "generos": [
+      "Fantasía"
+    ],
+    "duracion_min": 44,
+    "puntuacion": 8.1,
+    "plataforma": "Prime Video",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 19,
+    "titulo": "Serie 19",
+    "generos": [
+      "Fantasía"
+    ],
+    "duracion_min": 53,
+    "puntuacion": 2.8,
+    "plataforma": "Disney+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 20,
+    "titulo": "Serie 20",
+    "generos": [
+      "Fantasía"
+    ],
+    "duracion_min": 37,
+    "puntuacion": 8.5,
+    "plataforma": "Netflix",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 21,
+    "titulo": "Serie 21",
+    "generos": [
+      "Comedia"
+    ],
+    "duracion_min": 40,
+    "puntuacion": 6.4,
+    "plataforma": "HBO Max",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 22,
+    "titulo": "Serie 22",
+    "generos": [
+      "Ciencia Ficción"
+    ],
+    "duracion_min": 32,
+    "puntuacion": 1.2,
+    "plataforma": "HBO Max",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 23,
+    "titulo": "Serie 23",
+    "generos": [
+      "Ciencia Ficción"
+    ],
+    "duracion_min": 60,
+    "puntuacion": 3.2,
+    "plataforma": "HBO Max",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 24,
+    "titulo": "Serie 24",
+    "generos": [
+      "Ciencia Ficción"
+    ],
+    "duracion_min": 36,
+    "puntuacion": 3.2,
+    "plataforma": "Netflix",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 25,
+    "titulo": "Serie 25",
+    "generos": [
+      "Drama"
+    ],
+    "duracion_min": 53,
+    "puntuacion": 5.9,
+    "plataforma": "HBO Max",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 26,
+    "titulo": "Serie 26",
+    "generos": [
+      "Drama"
+    ],
+    "duracion_min": 25,
+    "puntuacion": 1.2,
+    "plataforma": "Netflix",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 27,
+    "titulo": "Serie 27",
+    "generos": [
+      "Ciencia Ficción"
+    ],
+    "duracion_min": 24,
+    "puntuacion": 3.0,
+    "plataforma": "Disney+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 28,
+    "titulo": "Serie 28",
+    "generos": [
+      "Fantasía"
+    ],
+    "duracion_min": 39,
+    "puntuacion": 2.8,
+    "plataforma": "Apple TV+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 29,
+    "titulo": "Serie 29",
+    "generos": [
+      "Acción"
+    ],
+    "duracion_min": 34,
+    "puntuacion": 4.3,
+    "plataforma": "Prime Video",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 30,
+    "titulo": "Serie 30",
+    "generos": [
+      "Comedia"
+    ],
+    "duracion_min": 23,
+    "puntuacion": 6.7,
+    "plataforma": "Apple TV+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 31,
+    "titulo": "Serie 31",
+    "generos": [
+      "Ciencia Ficción"
+    ],
+    "duracion_min": 46,
+    "puntuacion": 7.3,
+    "plataforma": "Apple TV+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 32,
+    "titulo": "Serie 32",
+    "generos": [
+      "Ciencia Ficción"
+    ],
+    "duracion_min": 27,
+    "puntuacion": 7.5,
+    "plataforma": "Netflix",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 33,
+    "titulo": "Serie 33",
+    "generos": [
+      "Ciencia Ficción"
+    ],
+    "duracion_min": 50,
+    "puntuacion": 7.3,
+    "plataforma": "Netflix",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 34,
+    "titulo": "Serie 34",
+    "generos": [
+      "Ciencia Ficción"
+    ],
+    "duracion_min": 27,
+    "puntuacion": 3.3,
+    "plataforma": "Prime Video",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 35,
+    "titulo": "Serie 35",
+    "generos": [
+      "Fantasía"
+    ],
+    "duracion_min": 39,
+    "puntuacion": 6.9,
+    "plataforma": "Apple TV+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 36,
+    "titulo": "Serie 36",
+    "generos": [
+      "Acción"
+    ],
+    "duracion_min": 21,
+    "puntuacion": 2.7,
+    "plataforma": "Apple TV+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 37,
+    "titulo": "Serie 37",
+    "generos": [
+      "Ciencia Ficción"
+    ],
+    "duracion_min": 29,
+    "puntuacion": 8.7,
+    "plataforma": "Netflix",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 38,
+    "titulo": "Serie 38",
+    "generos": [
+      "Fantasía"
+    ],
+    "duracion_min": 50,
+    "puntuacion": 9.2,
+    "plataforma": "HBO Max",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 39,
+    "titulo": "Serie 39",
+    "generos": [
+      "Ciencia Ficción"
+    ],
+    "duracion_min": 26,
+    "puntuacion": 6.3,
+    "plataforma": "Apple TV+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 40,
+    "titulo": "Serie 40",
+    "generos": [
+      "Fantasía"
+    ],
+    "duracion_min": 28,
+    "puntuacion": 5.4,
+    "plataforma": "Netflix",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 41,
+    "titulo": "Serie 41",
+    "generos": [
+      "Acción"
+    ],
+    "duracion_min": 39,
+    "puntuacion": 6.1,
+    "plataforma": "Netflix",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 42,
+    "titulo": "Serie 42",
+    "generos": [
+      "Acción"
+    ],
+    "duracion_min": 41,
+    "puntuacion": 1.2,
+    "plataforma": "Netflix",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 43,
+    "titulo": "Serie 43",
+    "generos": [
+      "Acción"
+    ],
+    "duracion_min": 40,
+    "puntuacion": 9.0,
+    "plataforma": "Netflix",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 44,
+    "titulo": "Serie 44",
+    "generos": [
+      "Fantasía"
+    ],
+    "duracion_min": 20,
+    "puntuacion": 2.7,
+    "plataforma": "Prime Video",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 45,
+    "titulo": "Serie 45",
+    "generos": [
+      "Drama"
+    ],
+    "duracion_min": 59,
+    "puntuacion": 4.0,
+    "plataforma": "Apple TV+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 46,
+    "titulo": "Serie 46",
+    "generos": [
+      "Drama"
+    ],
+    "duracion_min": 31,
+    "puntuacion": 6.4,
+    "plataforma": "HBO Max",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 47,
+    "titulo": "Serie 47",
+    "generos": [
+      "Ciencia Ficción"
+    ],
+    "duracion_min": 38,
+    "puntuacion": 1.3,
+    "plataforma": "Apple TV+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 48,
+    "titulo": "Serie 48",
+    "generos": [
+      "Ciencia Ficción"
+    ],
+    "duracion_min": 50,
+    "puntuacion": 3.2,
+    "plataforma": "Prime Video",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 49,
+    "titulo": "Serie 49",
+    "generos": [
+      "Drama"
+    ],
+    "duracion_min": 30,
+    "puntuacion": 6.5,
+    "plataforma": "Netflix",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 50,
+    "titulo": "Serie 50",
+    "generos": [
+      "Fantasía"
+    ],
+    "duracion_min": 53,
+    "puntuacion": 3.1,
+    "plataforma": "Apple TV+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 51,
+    "titulo": "Serie 51",
+    "generos": [
+      "Drama"
+    ],
+    "duracion_min": 35,
+    "puntuacion": 8.6,
+    "plataforma": "Apple TV+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 52,
+    "titulo": "Serie 52",
+    "generos": [
+      "Comedia"
+    ],
+    "duracion_min": 24,
+    "puntuacion": 6.9,
+    "plataforma": "Disney+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 53,
+    "titulo": "Serie 53",
+    "generos": [
+      "Drama"
+    ],
+    "duracion_min": 59,
+    "puntuacion": 5.4,
+    "plataforma": "Apple TV+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 54,
+    "titulo": "Serie 54",
+    "generos": [
+      "Comedia"
+    ],
+    "duracion_min": 30,
+    "puntuacion": 1.1,
+    "plataforma": "Prime Video",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 55,
+    "titulo": "Serie 55",
+    "generos": [
+      "Ciencia Ficción"
+    ],
+    "duracion_min": 41,
+    "puntuacion": 5.6,
+    "plataforma": "Apple TV+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 56,
+    "titulo": "Serie 56",
+    "generos": [
+      "Fantasía"
+    ],
+    "duracion_min": 31,
+    "puntuacion": 2.9,
+    "plataforma": "Disney+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 57,
+    "titulo": "Serie 57",
+    "generos": [
+      "Fantasía"
+    ],
+    "duracion_min": 55,
+    "puntuacion": 1.8,
+    "plataforma": "Netflix",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 58,
+    "titulo": "Serie 58",
+    "generos": [
+      "Acción"
+    ],
+    "duracion_min": 38,
+    "puntuacion": 4.4,
+    "plataforma": "Apple TV+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 59,
+    "titulo": "Serie 59",
+    "generos": [
+      "Ciencia Ficción"
+    ],
+    "duracion_min": 51,
+    "puntuacion": 6.3,
+    "plataforma": "HBO Max",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 60,
+    "titulo": "Serie 60",
+    "generos": [
+      "Comedia"
+    ],
+    "duracion_min": 51,
+    "puntuacion": 4.0,
+    "plataforma": "Disney+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 61,
+    "titulo": "Serie 61",
+    "generos": [
+      "Comedia"
+    ],
+    "duracion_min": 34,
+    "puntuacion": 4.0,
+    "plataforma": "Apple TV+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 62,
+    "titulo": "Serie 62",
+    "generos": [
+      "Ciencia Ficción"
+    ],
+    "duracion_min": 30,
+    "puntuacion": 8.9,
+    "plataforma": "Prime Video",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 63,
+    "titulo": "Serie 63",
+    "generos": [
+      "Fantasía"
+    ],
+    "duracion_min": 30,
+    "puntuacion": 2.4,
+    "plataforma": "Netflix",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 64,
+    "titulo": "Serie 64",
+    "generos": [
+      "Fantasía"
+    ],
+    "duracion_min": 36,
+    "puntuacion": 8.4,
+    "plataforma": "Apple TV+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 65,
+    "titulo": "Serie 65",
+    "generos": [
+      "Drama"
+    ],
+    "duracion_min": 39,
+    "puntuacion": 9.9,
+    "plataforma": "Apple TV+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 66,
+    "titulo": "Serie 66",
+    "generos": [
+      "Drama"
+    ],
+    "duracion_min": 41,
+    "puntuacion": 5.5,
+    "plataforma": "Disney+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 67,
+    "titulo": "Serie 67",
+    "generos": [
+      "Acción"
+    ],
+    "duracion_min": 52,
+    "puntuacion": 6.3,
+    "plataforma": "Prime Video",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 68,
+    "titulo": "Serie 68",
+    "generos": [
+      "Ciencia Ficción"
+    ],
+    "duracion_min": 50,
+    "puntuacion": 2.8,
+    "plataforma": "Prime Video",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 69,
+    "titulo": "Serie 69",
+    "generos": [
+      "Ciencia Ficción"
+    ],
+    "duracion_min": 26,
+    "puntuacion": 6.4,
+    "plataforma": "Apple TV+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 70,
+    "titulo": "Serie 70",
+    "generos": [
+      "Fantasía"
+    ],
+    "duracion_min": 47,
+    "puntuacion": 4.6,
+    "plataforma": "Prime Video",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 71,
+    "titulo": "Serie 71",
+    "generos": [
+      "Comedia"
+    ],
+    "duracion_min": 29,
+    "puntuacion": 3.6,
+    "plataforma": "Netflix",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 72,
+    "titulo": "Serie 72",
+    "generos": [
+      "Fantasía"
+    ],
+    "duracion_min": 33,
+    "puntuacion": 8.8,
+    "plataforma": "Apple TV+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 73,
+    "titulo": "Serie 73",
+    "generos": [
+      "Fantasía"
+    ],
+    "duracion_min": 44,
+    "puntuacion": 3.8,
+    "plataforma": "HBO Max",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 74,
+    "titulo": "Serie 74",
+    "generos": [
+      "Acción"
+    ],
+    "duracion_min": 57,
+    "puntuacion": 6.7,
+    "plataforma": "Prime Video",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 75,
+    "titulo": "Serie 75",
+    "generos": [
+      "Acción"
+    ],
+    "duracion_min": 41,
+    "puntuacion": 9.4,
+    "plataforma": "Disney+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 76,
+    "titulo": "Serie 76",
+    "generos": [
+      "Acción"
+    ],
+    "duracion_min": 26,
+    "puntuacion": 6.9,
+    "plataforma": "Disney+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 77,
+    "titulo": "Serie 77",
+    "generos": [
+      "Acción"
+    ],
+    "duracion_min": 30,
+    "puntuacion": 6.2,
+    "plataforma": "Prime Video",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 78,
+    "titulo": "Serie 78",
+    "generos": [
+      "Acción"
+    ],
+    "duracion_min": 49,
+    "puntuacion": 3.9,
+    "plataforma": "Disney+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 79,
+    "titulo": "Serie 79",
+    "generos": [
+      "Comedia"
+    ],
+    "duracion_min": 28,
+    "puntuacion": 8.8,
+    "plataforma": "Prime Video",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 80,
+    "titulo": "Serie 80",
+    "generos": [
+      "Acción"
+    ],
+    "duracion_min": 29,
+    "puntuacion": 7.5,
+    "plataforma": "HBO Max",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 81,
+    "titulo": "Serie 81",
+    "generos": [
+      "Ciencia Ficción"
+    ],
+    "duracion_min": 22,
+    "puntuacion": 3.7,
+    "plataforma": "HBO Max",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 82,
+    "titulo": "Serie 82",
+    "generos": [
+      "Ciencia Ficción"
+    ],
+    "duracion_min": 53,
+    "puntuacion": 6.6,
+    "plataforma": "Prime Video",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 83,
+    "titulo": "Serie 83",
+    "generos": [
+      "Acción"
+    ],
+    "duracion_min": 25,
+    "puntuacion": 1.2,
+    "plataforma": "HBO Max",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 84,
+    "titulo": "Serie 84",
+    "generos": [
+      "Fantasía"
+    ],
+    "duracion_min": 57,
+    "puntuacion": 3.7,
+    "plataforma": "Disney+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 85,
+    "titulo": "Serie 85",
+    "generos": [
+      "Fantasía"
+    ],
+    "duracion_min": 29,
+    "puntuacion": 9.9,
+    "plataforma": "HBO Max",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 86,
+    "titulo": "Serie 86",
+    "generos": [
+      "Ciencia Ficción"
+    ],
+    "duracion_min": 59,
+    "puntuacion": 8.3,
+    "plataforma": "Prime Video",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 87,
+    "titulo": "Serie 87",
+    "generos": [
+      "Comedia"
+    ],
+    "duracion_min": 23,
+    "puntuacion": 9.8,
+    "plataforma": "HBO Max",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 88,
+    "titulo": "Serie 88",
+    "generos": [
+      "Ciencia Ficción"
+    ],
+    "duracion_min": 46,
+    "puntuacion": 5.0,
+    "plataforma": "Netflix",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 89,
+    "titulo": "Serie 89",
+    "generos": [
+      "Fantasía"
+    ],
+    "duracion_min": 45,
+    "puntuacion": 3.9,
+    "plataforma": "Disney+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 90,
+    "titulo": "Serie 90",
+    "generos": [
+      "Fantasía"
+    ],
+    "duracion_min": 25,
+    "puntuacion": 7.2,
+    "plataforma": "Netflix",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 91,
+    "titulo": "Serie 91",
+    "generos": [
+      "Comedia"
+    ],
+    "duracion_min": 31,
+    "puntuacion": 5.1,
+    "plataforma": "HBO Max",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 92,
+    "titulo": "Serie 92",
+    "generos": [
+      "Ciencia Ficción"
+    ],
+    "duracion_min": 26,
+    "puntuacion": 4.5,
+    "plataforma": "Netflix",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 93,
+    "titulo": "Serie 93",
+    "generos": [
+      "Acción"
+    ],
+    "duracion_min": 30,
+    "puntuacion": 4.1,
+    "plataforma": "HBO Max",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 94,
+    "titulo": "Serie 94",
+    "generos": [
+      "Fantasía"
+    ],
+    "duracion_min": 30,
+    "puntuacion": 3.8,
+    "plataforma": "Apple TV+",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 95,
+    "titulo": "Serie 95",
+    "generos": [
+      "Comedia"
+    ],
+    "duracion_min": 46,
+    "puntuacion": 8.3,
+    "plataforma": "Netflix",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 96,
+    "titulo": "Serie 96",
+    "generos": [
+      "Comedia"
+    ],
+    "duracion_min": 25,
+    "puntuacion": 8.3,
+    "plataforma": "Prime Video",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 97,
+    "titulo": "Serie 97",
+    "generos": [
+      "Drama"
+    ],
+    "duracion_min": 44,
+    "puntuacion": 6.9,
+    "plataforma": "HBO Max",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 98,
+    "titulo": "Serie 98",
+    "generos": [
+      "Acción"
+    ],
+    "duracion_min": 46,
+    "puntuacion": 5.0,
+    "plataforma": "Netflix",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  },
+  {
+    "id": 99,
+    "titulo": "Serie 99",
+    "generos": [
+      "Fantasía"
+    ],
+    "duracion_min": 49,
+    "puntuacion": 8.5,
+    "plataforma": "Prime Video",
+    "sinopsis": "Sinopsis de prueba generada automáticamente."
+  }
+]
