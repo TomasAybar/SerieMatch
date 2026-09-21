@@ -14,26 +14,19 @@ ruta_cargar_series = 'datos/generados/series_'
 ruta_guardar_graficos = "docs/capturas"
 
 def crear_grafico(tamaños, secuencial, binaria, arbol):
-    # plt.figure(figsize=(8, 5))
     
-    # Trazar las 3 curvas
-    plt.plot(tamaños, secuencial, label="secuencial_ms", marker='o')
-    plt.plot(tamaños, binaria, label="binaria_ms", marker='s')
-    plt.plot(tamaños, arbol, label="arbol_ms", marker='^')
+    plt.plot(tamaños, secuencial, label="secuencial", marker='o')
+    plt.plot(tamaños, binaria, label="binaria", marker='o')
+    plt.plot(tamaños, arbol, label="arbol", marker='o')
     
-    # Escalas logarítmicas (clave para ver bien la tendencia)
     plt.xscale("log")
     plt.yscale("log")
+
+    plt.xlabel("N elementos")
+    plt.ylabel("tiempo (ms)")
+
+    plt.legend()
     
-    # # Formato e información del gráfico
-    # plt.title("Comparativa de Tiempos de Búsqueda (TP3)", fontsize=14)
-    # plt.xlabel("Tamaño del dataset (N elementos)", fontsize=11)
-    # plt.ylabel("Tiempo de búsqueda (milisegundos)", fontsize=11)
-    # plt.grid(True, which="both", linestyle="--", alpha=0.5)
-    # plt.legend()
-    # plt.tight_layout()
-    
-    # Guardar imagen en la carpeta correspondiente
     os.makedirs(ruta_guardar_graficos, exist_ok=True)
     plt.savefig(f"{ruta_guardar_graficos}/experimento-tp3.png", dpi=300)
     print(f"\nGráfico guardado en '{ruta_guardar_graficos}/experimento-tp3.png'")
