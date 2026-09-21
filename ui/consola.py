@@ -44,8 +44,7 @@ class ConsolaUI:
             elif opcion == "3":
                 self.catalogo.listar_series()
             elif opcion == "4":
-                # self.busqueda_BST()
-                self.catalogo.busqueda_BST()
+                self.busqueda_BST()
             elif opcion == "5":
                 self.dejar_resena()
             elif opcion == "6":
