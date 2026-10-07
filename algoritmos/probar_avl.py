@@ -16,6 +16,7 @@ print("PRUEBA 1: BST vs AVL con 100 datos ordenados")
 print("=" * 50)
 
 numeros = list(range(1, 101))
+# numeros = list(range(1, 10001))
 
 bst = ArbolBST()
 avl = ArbolAVL()
