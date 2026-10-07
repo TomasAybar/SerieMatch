@@ -162,6 +162,34 @@ class ArbolAVL:
                 nodo.derecho, resultado
             )
 
+    # ---------- RECORRIDO PREORDER ----------
+
+    def preorder(self):
+        """Raíz → izquierda → derecha."""
+        resultado = []
+        self._preorder_recursivo(self.raiz, resultado)
+        return resultado
+
+    def _preorder_recursivo(self, nodo, resultado):
+        if nodo is not None:
+            resultado.append(nodo.dato)
+            self._preorder_recursivo(nodo.izquierdo, resultado)
+            self._preorder_recursivo(nodo.derecho, resultado)
+
+    # ---------- RECORRIDO POSTORDER ----------
+
+    def postorder(self):
+        """Izquierda → derecha → raíz."""
+        resultado = []
+        self._postorder_recursivo(self.raiz, resultado)
+        return resultado
+
+    def _postorder_recursivo(self, nodo, resultado):
+        if nodo is not None:
+            self._postorder_recursivo(nodo.izquierdo, resultado)
+            self._postorder_recursivo(nodo.derecho, resultado)
+            resultado.append(nodo.dato)
+
     # ---------- ALTURA DEL ÁRBOL ----------
 
     def altura(self):
