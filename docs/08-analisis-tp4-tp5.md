@@ -289,6 +289,8 @@ La solución fue usar 100 elementos para la comparación de tiempos (suficiente 
 diferencia: BST altura 100 vs AVL altura 7). El error en sí mismo es evidencia del problema real
 que el AVL resuelve: con datos ordenados, el BST se convierte en una estructura lineal inmanejable.
 
+![RecursionError en BST con 10.000 datos ordenados](capturas/tp5-recursionError.png)
+
 ---
 
 ## 8. Datos y evidencia
