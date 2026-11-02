@@ -1,8 +1,32 @@
 class ConsolaUI:
-    def __init__(self, catalogo, avl, arbol_categorias):
+    def __init__(self, catalogo, avl, arbol_categorias, heap_ranking):
         self.catalogo = catalogo
         self.avl = avl
         self.arbol_categorias = arbol_categorias
+        self.heap_ranking = heap_ranking
+
+    def ver_ranking(self):
+        entrada = input("¿Cuántas series quiere ver en el ranking? [5]: ").strip()
+        if entrada == "":
+            n = 5
+        elif entrada.isdigit() and int(entrada) > 0:
+            n = int(entrada)
+        else:
+            print("Cantidad inválida")
+            return
+
+        # Top-N: se extrae el máximo n veces y luego se reinsertan para no perderlos
+        ranking = []
+        for _ in range(min(n, len(self.heap_ranking.heap))):
+            ranking.append(self.heap_ranking.extract_max())
+        for serie in ranking:
+            self.heap_ranking.insert(serie)
+
+        print(f"\n=== TOP {len(ranking)} SERIES POR PUNTUACIÓN ===")
+        medallas = {1: "🥇", 2: "🥈", 3: "🥉"}
+        for posicion, serie in enumerate(ranking, 1):
+            marca = medallas.get(posicion, f"{posicion}.")
+            print(f"{marca} {serie.titulo:<35} {serie.puntuacion:.1f}")
 
     def registrar_usuario(self):
         print("Registrar usuario")
@@ -63,6 +87,7 @@ class ConsolaUI:
             print("5. Dejar reseña")
             print("6. Filtrar por género")
             print("7. Explorar categorías")
+            print("8. Ranking de series")
             print("0. Salir")
 
             opcion = input("Seleccione una opción: ")
@@ -81,6 +106,8 @@ class ConsolaUI:
                 self.catalogo.filtrar_serie_genero()
             elif opcion == "7":
                 self.explorar_categorias()
+            elif opcion == "8":
+                self.ver_ranking()
             elif opcion == "0":
                 print("Saliendo...")
                 break
