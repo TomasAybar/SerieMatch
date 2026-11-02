@@ -1,6 +1,7 @@
 from estructuras.arbol_binario import ArbolBST
 from estructuras.avl import ArbolAVL
 from estructuras.arbol_general import ArbolGeneral
+from estructuras.heap import MaxHeap
 from modelos.catalogo import Catalogo
 from ui.consola import ConsolaUI
 
@@ -31,7 +32,16 @@ def main():
 
     arbol_categorias = construir_arbol_categorias(mi_catalogo)
 
-    app = ConsolaUI(catalogo=mi_catalogo, avl=avl, arbol_categorias=arbol_categorias)
+    heap_ranking = MaxHeap()
+    for serie in mi_catalogo.series:
+        heap_ranking.insert(serie)
+
+    app = ConsolaUI(
+        catalogo=mi_catalogo,
+        avl=avl,
+        arbol_categorias=arbol_categorias,
+        heap_ranking=heap_ranking,
+    )
     app.iniciar_aplicacion()
 
 
