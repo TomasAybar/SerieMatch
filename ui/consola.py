@@ -1,7 +1,8 @@
 class ConsolaUI:
-    def __init__(self, catalogo, arbol):
+    def __init__(self, catalogo, arbol, grafo):
         self.catalogo = catalogo
         self.arbol = arbol
+        self.grafo = grafo
 
     def registrar_usuario(self):
         print("Registrar usuario")
@@ -18,6 +19,35 @@ class ConsolaUI:
             print("No se encontró")
         print("Fin de resultados")
 
+    def buscar_series_relacionadas(self):
+        titulo = input("Ingrese el titulo de una serie: ")
+
+        relacionadas = self.grafo.obtener_vecinos(titulo)
+
+        if relacionadas:
+            print("\n=== SERIES RELACIONADAS POR GÉNERO ===")
+
+            relacionadas_ordenadas = sorted(
+                relacionadas,
+                key=lambda serie: (
+                    -len(self.grafo.obtener_generos_compartidos(titulo, serie)),
+                    serie.lower()
+                )
+            )
+
+            for serie in relacionadas_ordenadas:
+                generos = self.grafo.obtener_generos_compartidos(
+                    titulo,
+                    serie
+                )
+
+                generos_formateados = ", ".join(generos)
+
+                print(f"- {serie} | Géneros compartidos: {generos_formateados}")
+
+        else:
+            print("No se encontraron series relacionadas.")
+
     def dejar_resena(self):
         print("Dejar reseña")
 
@@ -33,6 +63,7 @@ class ConsolaUI:
             print("4. Buscar serie por titulo")
             print("5. Dejar reseña")
             print("6. Filtrar por género")
+            print("7. Buscar series relacionadas por género")
             print("0. Salir")
 
             opcion = input("Seleccione una opción: ")
@@ -49,6 +80,8 @@ class ConsolaUI:
                 self.dejar_resena()
             elif opcion == "6":
                 self.catalogo.filtrar_serie_genero()
+            elif opcion == "7":
+                self.buscar_series_relacionadas()
             elif opcion == "0":
                 print("Saliendo...")
                 break
