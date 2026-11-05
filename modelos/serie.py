@@ -43,5 +43,9 @@ class Serie:
     def sinopsis(self) -> str:
         return self._sinopsis
 
+    def __gt__(self, otra) -> bool:
+        """La prioridad de una serie en el heap es su puntuación."""
+        return self.puntuacion > otra.puntuacion
+
     def __repr__(self) -> str:
         return f"Serie: {self.titulo} Plataforma: {self.plataforma} ⭐Puntuacion: {self.puntuacion}"
