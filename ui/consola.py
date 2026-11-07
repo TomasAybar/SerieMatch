@@ -74,25 +74,33 @@ class ConsolaUI:
 
     def buscar_series_relacionadas(self):
         titulo = input("Ingrese el titulo de una serie: ")
+
+        if not self.grafo.existe_serie(titulo):
+            print("No se encontró la serie en el catálogo.")
+            return
+
         relacionadas = self.grafo.obtener_vecinos(titulo)
 
-        if relacionadas:
-            print("\n=== SERIES RELACIONADAS POR GÉNERO ===")
+        if not relacionadas:
+            print("La serie no comparte géneros con ninguna otra del catálogo.")
+            return
 
-            relacionadas_ordenadas = sorted(
-                relacionadas,
-                key=lambda serie: (
-                    -len(self.grafo.obtener_generos_compartidos(titulo, serie)),
-                    serie.lower()
-                )
-            )
+        # Los géneros compartidos se calculan una sola vez por serie
+        # y se reutilizan para ordenar y para mostrar.
+        generos_por_relacionada = {
+            serie: self.grafo.obtener_generos_compartidos(titulo, serie)
+            for serie in relacionadas
+        }
 
-            for serie in relacionadas_ordenadas:
-                generos = self.grafo.obtener_generos_compartidos(titulo, serie)
-                generos_formateados = ", ".join(generos)
-                print(f"- {serie} | Géneros compartidos: {generos_formateados}")
-        else:
-            print("No se encontraron series relacionadas.")
+        relacionadas_ordenadas = sorted(
+            relacionadas,
+            key=lambda serie: (-len(generos_por_relacionada[serie]), serie.lower())
+        )
+
+        print("\n=== SERIES RELACIONADAS POR GÉNERO ===")
+        for serie in relacionadas_ordenadas:
+            generos_formateados = ", ".join(generos_por_relacionada[serie])
+            print(f"- {serie} | Géneros compartidos: {generos_formateados}")
 
     def dejar_resena(self):
         print("Dejar reseña")

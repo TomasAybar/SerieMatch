@@ -9,6 +9,7 @@ class GrafoSeries:
         self.adyacencia = {}
         self.generos_por_serie = {}
         self.titulos_por_id = {}
+        self.nombres_genero = {}
 
     def agregar_vertice(self, serie):
         """Agrega una serie utilizando su ID como identificador."""
@@ -31,6 +32,7 @@ class GrafoSeries:
         self.adyacencia = {}
         self.generos_por_serie = {}
         self.titulos_por_id = {}
+        self.nombres_genero = {}
 
         por_genero = {}
 
@@ -39,10 +41,11 @@ class GrafoSeries:
 
             id_serie = serie.id
 
-            generos = {
-                genero.strip().lower()
-                for genero in serie.generos
-            }
+            generos = set()
+            for genero in serie.generos:
+                normalizado = genero.strip().lower()
+                generos.add(normalizado)
+                self.nombres_genero.setdefault(normalizado, genero.strip())
 
             self.generos_por_serie[id_serie] = generos
 
@@ -67,6 +70,10 @@ class GrafoSeries:
             for id_serie, nombre in self.titulos_por_id.items()
             if nombre.lower() == titulo.strip().lower()
         ]
+
+    def existe_serie(self, titulo):
+        """Indica si hay al menos una serie con ese título (o ID) en el grafo."""
+        return bool(self._buscar_ids(titulo))
 
     def obtener_vecinos(self, titulo):
         """Devuelve las series relacionadas sin repetir títulos."""
@@ -102,7 +109,7 @@ class GrafoSeries:
                     & self.generos_por_serie[id2]
                 )
 
-        return sorted(compartidos)
+        return [self.nombres_genero[genero] for genero in sorted(compartidos)]
 
     def recorrido_bfs(self, origen):
         """Realiza un recorrido en amplitud."""

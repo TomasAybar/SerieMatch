@@ -31,7 +31,9 @@
         "generos": [
             "Ciencia ficción",
             "Terror",
-            "Drama"
+            "Drama",
+            "Fantasía",
+            "Misterio"
         ],
         "duracion_min": 51,
         "puntuacion": 8.7,
@@ -213,21 +215,6 @@
         "puntuacion": 8.1,
         "plataforma": "Max",
         "sinopsis": "Leonard y Sheldon son dos brillantes físicos que comparten departamento y llevan una vida marcada por la ciencia, los videojuegos y sus particulares relaciones sociales, hasta que Penny se muda al departamento de enfrente."
-    },
-    {
-        "id": 18,
-        "titulo": "Stranger Things",
-        "generos": [
-            "Drama",
-            "Ciencia Ficción",
-            "Fantasía",
-            "Terror",
-            "Misterio"
-        ],
-        "duracion_min": 60,
-        "puntuacion": 8.6,
-        "plataforma": "Netflix",
-        "sinopsis": "En el pueblo de Hawkins, la desaparición de un niño lleva a sus amigos y familiares a descubrir experimentos secretos, poderes sobrenaturales y una misteriosa dimensión alternativa."
     },
     {
         "id": 19,
