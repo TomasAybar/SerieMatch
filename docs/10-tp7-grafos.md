@@ -63,7 +63,7 @@ La construcción del grafo se realiza desde `main.py` y se conecta con la interf
 
 Se incorporó una nueva opción en el menú:
 
-**7. Buscar series relacionadas por género.**
+**9. Buscar series relacionadas por género.**
 
 Esta opción permite ingresar el título de una serie y consultar las demás series que comparten al menos un género.
 

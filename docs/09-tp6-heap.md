@@ -1,4 +1,4 @@
-# Análisis TP5 — Cola de prioridad (Heap)
+# Análisis TP6 — Cola de prioridad (Heap)
 
 ## 1. ¿Qué resolvimos?
 
