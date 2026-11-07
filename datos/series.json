@@ -288,7 +288,7 @@
         "id": 24,
         "titulo": "Loki",
         "generos": [
-            "Ciencia Ficción",
+            "Ciencia ficción",
             "Fantasía",
             "Acción",
             "Aventura"
@@ -318,7 +318,7 @@
         "generos": [
             "Drama",
             "Misterio",
-            "Ciencia Ficción",
+            "Ciencia ficción",
             "Aventura"
         ],
         "duracion_min": 43,
@@ -398,7 +398,7 @@
         "id": 32,
         "titulo": "The Umbrella Academy",
         "generos": [
-            "Ciencia Ficción",
+            "Ciencia ficción",
             "Fantasía",
             "Acción",
             "Comedia"
@@ -415,7 +415,7 @@
             "Animación",
             "Acción",
             "Fantasía",
-            "Ciencia Ficción"
+            "Ciencia ficción"
         ],
         "duracion_min": 40,
         "puntuacion": 9.0,
@@ -477,7 +477,7 @@
         "id": 38,
         "titulo": "Silo",
         "generos": [
-            "Ciencia Ficción",
+            "Ciencia ficción",
             "Drama",
             "Misterio",
             "Suspenso"
@@ -491,7 +491,7 @@
         "id": 39,
         "titulo": "Severance",
         "generos": [
-            "Ciencia Ficción",
+            "Ciencia ficción",
             "Drama",
             "Misterio",
             "Suspenso"
@@ -581,7 +581,7 @@
         "id": 46,
         "titulo": "Alice in Borderland",
         "generos": [
-            "Ciencia Ficción",
+            "Ciencia ficción",
             "Acción",
             "Suspenso",
             "Misterio"

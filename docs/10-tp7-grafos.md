@@ -61,6 +61,7 @@ Sus principales métodos son:
 - `agregar_vertice()`: incorpora una serie al grafo.
 - `agregar_arista()`: establece una conexión entre dos series.
 - `construir_desde_catalogo()`: construye automáticamente el grafo utilizando las series y sus géneros.
+- `existe_serie()`: indica si una serie (por título o ID) está en el grafo. Permite distinguir en el menú entre un título inexistente y una serie sin relacionadas.
 - `obtener_vecinos()`: devuelve las series relacionadas con una serie determinada.
 - `obtener_generos_compartidos()`: identifica los géneros que tienen en común dos series.
 - `recorrido_bfs()`: realiza un recorrido en amplitud.
@@ -74,13 +75,17 @@ También se almacena la información de los géneros de cada serie para poder id
 
 Es un recorrido en amplitud. Utiliza una cola para visitar primero los vértices más cercanos al punto de origen.
 
-En SerieMatch permite recorrer las series relacionadas comenzando por una serie determinada.
+Partiendo de una serie, primero visita todas las series que comparten un género con ella y después las que están conectadas a través de esas.
 
 ### DFS (Depth-First Search)
 
 Es un recorrido en profundidad. Utiliza una pila para explorar un camino hasta donde sea posible antes de regresar y continuar por otro camino.
 
 Ambos algoritmos utilizan un conjunto de vértices visitados para evitar procesar repetidamente una misma serie.
+
+### Uso de los recorridos en el proyecto
+
+BFS y DFS están implementados en `GrafoSeries` y se ejecutan desde el script de prueba `algoritmos/probar_grafo.py`, pero **no se incorporaron como opción del menú**. El motivo es que, con el catálogo actual, el grafo es conexo: desde cualquier serie se llega a las 45, por lo que ambos recorridos devuelven el catálogo completo y no aportan información útil como recomendación. Para el usuario resulta más útil la consulta de vecinos directos ordenados por géneros compartidos (opción 9).
 
 ## 5. Integración con el catálogo
 
