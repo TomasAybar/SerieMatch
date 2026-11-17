@@ -1,8 +1,9 @@
-from estructuras.avl import ArbolAVL
 from estructuras.arbol_general import ArbolGeneral
-from estructuras.heap import MaxHeap
+from estructuras.avl import ArbolAVL
 from estructuras.grafo import GrafoSeries
+from estructuras.heap import MaxHeap
 from modelos.catalogo import Catalogo
+from modelos.favoritos import GestorFavoritos
 from ui.consola import ConsolaUI
 
 
@@ -42,6 +43,9 @@ def main():
     for serie in mi_catalogo.series:
         heap_ranking.insert(serie)
 
+    # Guardados de favoritos en .txt
+    favoritos = GestorFavoritos(ruta_archivo="datos/favoritos.txt")
+
     # Inicialización de la interfaz
     app = ConsolaUI(
         catalogo=mi_catalogo,
@@ -49,6 +53,7 @@ def main():
         arbol_categorias=arbol_categorias,
         heap_ranking=heap_ranking,
         grafo=grafo,
+        favoritos=favoritos,
     )
 
     app.iniciar_aplicacion()
