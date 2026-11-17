@@ -62,6 +62,12 @@ class Catalogo:
         self.series = []
         self.cargar_datos(ruta_archivo=ruta_archivo)
 
+    def buscar_por_id(self, id_serie):
+        for serie in self.series:
+            if serie.id == id_serie:
+                return serie
+        return None
+
     def buscar(self, titulo):
         titulo_normalizado = titulo.lower()
         for serie in self.series:

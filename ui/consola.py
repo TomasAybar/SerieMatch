@@ -1,10 +1,11 @@
 class ConsolaUI:
-    def __init__(self, catalogo, avl, arbol_categorias, heap_ranking, grafo):
+    def __init__(self, catalogo, avl, arbol_categorias, heap_ranking, grafo, favoritos):
         self.catalogo = catalogo
         self.avl = avl
         self.arbol_categorias = arbol_categorias
         self.heap_ranking = heap_ranking
         self.grafo = grafo
+        self.favoritos = favoritos
 
     def ver_ranking(self):
         entrada = input("¿Cuántas series quiere ver en el ranking? [5]: ").strip()
@@ -102,6 +103,58 @@ class ConsolaUI:
             generos_formateados = ", ".join(generos_por_relacionada[serie])
             print(f"- {serie} | Géneros compartidos: {generos_formateados}")
 
+    def mostrar_favoritos(self):
+        print("\n=== MIS FAVORITOS ===")
+
+        if not self.favoritos.ids:
+            print("Todavía no agregaste series a favoritos.")
+            return
+
+        for id_serie in self.favoritos.ids:
+            serie = self.catalogo.buscar_por_id(id_serie)
+            if serie:
+                print(f"[{serie.id}] {serie.titulo} - {serie.plataforma} - {serie.puntuacion}")
+            else:
+                print(f"[{id_serie}] (la serie ya no está en el catálogo)")
+
+    def agregar_a_favoritos(self):
+        self.catalogo.listar_series()
+        entrada = input("\nIngrese el ID de la serie a agregar (o 0 para volver): ").strip()
+
+        if entrada == "0":
+            return
+
+        if not entrada.isdigit():
+            print("ID inválido: ingrese un número de la lista.")
+            return
+
+        serie = self.catalogo.buscar_por_id(int(entrada))
+        if serie is None:
+            print(f"No existe una serie con ID {entrada}.")
+            return
+
+        if self.favoritos.agregar(serie.id):
+            print(f"'{serie.titulo}' se agregó a favoritos.")
+        else:
+            print(f"'{serie.titulo}' ya estaba en favoritos.")
+
+    def menu_favoritos(self):
+        # Cada vez que se entra se leen los favoritos guardados en el archivo.
+        self.favoritos.cargar()
+
+        while True:
+            self.mostrar_favoritos()
+            print("\n1. Agregar a favoritos")
+            print("0. Volver")
+            opcion = input("Seleccione una opción: ")
+
+            if opcion == "1":
+                self.agregar_a_favoritos()
+            elif opcion == "0":
+                return
+            else:
+                print("Opción inválida")
+
     def dejar_resena(self):
         print("Dejar reseña")
 
@@ -119,6 +172,7 @@ class ConsolaUI:
             print("7. Explorar categorías")
             print("8. Ranking de series")
             print("9. Buscar series relacionadas por género")
+            print("10. Favoritos")
             print("0. Salir")
 
             opcion = input("Seleccione una opción: ")
@@ -141,6 +195,8 @@ class ConsolaUI:
                 self.ver_ranking()
             elif opcion == "9":
                 self.buscar_series_relacionadas()
+            elif opcion == "10":
+                self.menu_favoritos()
             elif opcion == "0":
                 print("Saliendo...")
                 break
