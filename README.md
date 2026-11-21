@@ -11,7 +11,7 @@ SerieMatch es una aplicación de consola diseñada para los fanáticos que pasan
 Funcionalidades planteadas en la propuesta inicial y su estado en la versión final:
 
 *   **Mini test inteligente:** Un cuestionario rápido al ingresar para adaptar el algoritmo a tu estado de ánimo actual. ❌ *No implementada.*
-*   **¿Dónde verla?:** Integración de disponibilidad para indicarte exactamente en qué plataforma de streaming se encuentra la serie. 🟡 *Implementada en parte: cada serie muestra su plataforma, sin enlace directo.*
+*   **¿Dónde verla?:** Integración de disponibilidad para indicarte exactamente en qué plataforma de streaming se encuentra la serie. 🟡 *Implementada en parte: cada serie muestra su plataforma, sin el link.*
 *   **Lista de Favoritos:** Guardá tus *matches* para no olvidarte qué mirar el fin de semana. ✅ *Implementada: los favoritos se guardan en un archivo de texto.*
 *   **Tráiler Oficial:** Acceso directo a los avances para ayudarte a tomar la decisión final. ❌ *No implementada.*
 *   **Ranking:** Top de las series mejor valoradas por la crítica. ✅ *Implementada con un heap.*
@@ -75,21 +75,25 @@ python main.py
 
 | Carpeta | Contenido |
 |---|---|
-| `modelos/` | Clases del dominio (`Serie`, `Usuario`) |
-| `estructuras/` | Estr. de datos implementadas (BST, AVL, Heap, Grafo) |
-| `algoritmos/` | Búsquedas, BFS/DFS, caminos mínimos |
-| `datos/` | Datasets de prueba (JSON) |
-| `servicios/` | Lógica de negocio (recomendador) |
+| `modelos/` | Clases del dominio (`Serie`, `Usuario`, `Catalogo`, `GestorFavoritos`) |
+| `estructuras/` | Estructuras de datos implementadas (BST, AVL, árbol general, heap, grafo) |
+| `algoritmos/` | Scripts de prueba de las estructuras y experimentos de medición de tiempos |
+| `datos/` | Catálogo de series (JSON), generador de datasets de prueba y favoritos guardados |
 | `ui/` | Interfaz de terminal |
-| `tests/` | Pruebas |
+| `utils/` | Funciones auxiliares (normalización de los datos del JSON) |
 | `docs/` | Documentación del proyecto |
 
 ## Documentación
+- **[Documentación final](docs/11-documentacion-final.md)**: propuesta vs. resultado, estructuras por TP, diagrama de clases y trabajo futuro.
+- [Propuesta](docs/00-propuesta.md)
 - [Requerimientos](docs/01-requerimientos.md)
-- [Casos de uso](docs/02-casos-de-uso.md)
-- [Diagrama de clases](docs/03-diagrama-clases.md)
+- [Diagrama de clases (boceto TP0)](docs/03-diagrama-clases.md)
 - [Conexión entre estructuras](docs/04-diagrama-datos.md)
 - [Gestión del proyecto](docs/05-gestion-proyecto.md)
+- [TP3: BST y comparación de búsquedas](docs/07-analisis-tp3.md)
+- [TP4 y TP5: AVL y árbol general](docs/08-analisis-tp4-tp5.md)
+- [TP6: heap y ranking](docs/09-tp6-heap.md)
+- [TP7: grafo y series relacionadas](docs/10-tp7-grafos.md)
 
 ## Estado del proyecto
 ✅ **Versión final entregada** (TP0 a TP7 y lista de favoritos).

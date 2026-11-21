@@ -21,6 +21,12 @@ lo convierte en una lista enlazada con complejidad O(n) por búsqueda. El AVL re
 
 ### 2.2 Rotaciones implementadas
 
+Cada nodo guarda su altura para calcular el **factor de balance**:
+
+**Factor de balance = altura del subárbol izquierdo − altura del subárbol derecho**
+
+Un nodo está balanceado cuando su factor está entre −1 y 1. Si después de una inserción queda fuera de ese rango, el AVL aplica una de estas rotaciones:
+
 | Tipo | Caso | Cuándo se aplica |
 |---|---|---|
 | Rotación simple derecha | Izquierda-Izquierda | Factor de balance > 1 y el nuevo dato va a la izquierda del hijo izquierdo |
@@ -42,6 +48,7 @@ Insertamos datos **en orden** (escenario que rompe un BST común) y demostramos 
 
 | Métrica | BST común | AVL |
 |---|---:|---:|
+| Altura con 5 datos ordenados `[10, 20, 30, 40, 50]` | 5 | 3 |
 | Altura con 100 datos ordenados | 100 | 7 |
 | Búsqueda con 100 datos ordenados (100.000 ops) | 917 ms | 74 ms |
 | Complejidad peor caso búsqueda | O(n) | O(log n) |
