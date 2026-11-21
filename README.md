@@ -8,12 +8,15 @@ SerieMatch es una aplicación de consola diseñada para los fanáticos que pasan
 
 ## Funcionalidades Principales
 
-*   **Mini test inteligente:** Un cuestionario rápido al ingresar para adaptar el algoritmo a tu estado de ánimo actual.
-*   **¿Dónde verla?:** Integración de disponibilidad para indicarte exactamente en qué plataforma de streaming se encuentra la serie.
-*   **Lista de Favoritos:** Guardá tus *matches* para no olvidarte qué mirar el fin de semana.
-*   **Tráiler Oficial:** Acceso directo a los avances para ayudarte a tomar la decisión final.
-*   **Ranking:** Top de las series mejor valoradas por la crítica.
+Funcionalidades planteadas en la propuesta inicial y su estado en la versión final:
 
+*   **Mini test inteligente:** Un cuestionario rápido al ingresar para adaptar el algoritmo a tu estado de ánimo actual. ❌ *No implementada.*
+*   **¿Dónde verla?:** Integración de disponibilidad para indicarte exactamente en qué plataforma de streaming se encuentra la serie. 🟡 *Implementada en parte: cada serie muestra su plataforma, sin enlace directo.*
+*   **Lista de Favoritos:** Guardá tus *matches* para no olvidarte qué mirar el fin de semana. ✅ *Implementada: los favoritos se guardan en un archivo de texto.*
+*   **Tráiler Oficial:** Acceso directo a los avances para ayudarte a tomar la decisión final. ❌ *No implementada.*
+*   **Ranking:** Top de las series mejor valoradas por la crítica. ✅ *Implementada con un heap.*
+
+Además, la versión final incluye búsqueda por título (árbol AVL), filtro por género, exploración por categorías (árbol general) y recomendación de series relacionadas por género (grafo). El detalle está en la [documentación final](docs/11-documentacion-final.md).
 
 
 ## Instalación y ejecución
@@ -64,9 +67,9 @@ python main.py
 
 ## Integrantes
 
-    - Violeta Curto
-    - Mateo Luquetti
-    - Tomas Aybar
+- Violeta Curto
+- ~~Mateo Luquetti~~ *(DNF)*
+- Tomás Aybar
 
 ## Estructura del repositorio
 
@@ -89,4 +92,6 @@ python main.py
 - [Gestión del proyecto](docs/05-gestion-proyecto.md)
 
 ## Estado del proyecto
-⏳ TP0
+✅ **Versión final entregada** (TP0 a TP7 y lista de favoritos).
+
+**En mejora continua:** el proyecto sigue abierto a nuevas funcionalidades y mejoras. Las próximas están listadas en la [documentación final](docs/11-documentacion-final.md#7-limitaciones-conocidas-y-trabajo-futuro), como el mini test, el tráiler y las opciones del menú que todavía no tienen lógica (registrar usuario, agregar serie y dejar reseña).
